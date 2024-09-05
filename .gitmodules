@@ -1,0 +1,6 @@
+[submodule "ENGL_250"]
+	path = ENGL_250
+	url = https://github.com/carsonSgit/ENGL_250.git
+[submodule "THEO_233/THEO_233"]
+	path = THEO_233/THEO_233
+	url = https://github.com/carsonSgit/THEO_233.git
