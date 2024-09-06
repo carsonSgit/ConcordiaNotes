@@ -41,4 +41,6 @@ Donna Haraway's idea of a replacement to the monomyth is one that defocuses from
 
 The Hero's Journey is a dominant story structure that forces artists to make works that they are not passionate about in order to make a living as the commisions/contracts are done in order to make money, and to stray from the known monomyth is to risk capital investments.
 
+###### Conclusion
 
+To promote a positive future of expression, we must encourage and explore different ways of storytelling and narrative-delivery.
