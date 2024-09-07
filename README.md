@@ -1,4 +1,4 @@
-# ConcordiaNotes
+# Concordia Notes
 Notes taken for my courses at Concordia University.
 
 ### Ideally notes follow this trend
