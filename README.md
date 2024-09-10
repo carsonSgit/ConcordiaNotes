@@ -1,6 +1,11 @@
 # Concordia Notes
 Notes taken for my courses at Concordia University.
 
+#### Courses present
+
+- **THEO 233**
+- **ENGL 250**
+
 ### Ideally notes follow this trend
 
 ```
