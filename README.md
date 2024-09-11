@@ -1,6 +1,12 @@
 # Concordia Notes
 Notes taken for my courses at Concordia University.
 
+## Important costs remaining
+
+- [ ] Tuition
+- [ ] Locker
+- [ ] Books
+
 #### Courses present
 
 - **THEO 233**
