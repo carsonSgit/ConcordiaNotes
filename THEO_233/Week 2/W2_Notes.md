@@ -147,3 +147,42 @@ Augustine's view of secularism and religion
     - Secular comes from the Latin saeculum (French "Siecle"), a unity of time introduced by Etruscans and adopted by the Romans
     - In the Middle Ages, "Secular" referred to the affairs of a worldy existence and used for clergy not attached to religious orders (e.g. a parish priest was a secular priest)
     - Augustine spoke of the saeculum as a mixed, inextricably intertwined state in this temporal life
+
+#### Augustine "City of God"
+
+- Brings comparison to discern what is "right" and what is "wrong"
+    - A pirate is a robber, while an emperor is a king
+- Desire/Attachment to things is a root to "evil" (sadness, violence, etc.)
+    - Being very very wealthy -> fear of losing the wealth
+    - Attached to growth -> wars for new territory
+
+#### R. Markus "Augustine and the Secularisation of Rome"
+
+- Trying to replace all other religions with Christianity
+    - "Christian Euphoria"
+- Augustine preached
+    - In past: "Christianity is in prosperity" type of preaching
+    - Then: Christianity is going through an "identity crisis"
+- A growth of aestheticism
+    - Monks
+    - Dedicating life to god
+        - Leaving cities
+- Political leaders would write letters to Christian Leaders:
+    - "Stop sending people to go devote their lives to god"
+        - People are leaving, population decreasing, economy suffering
+- Coming face to face with barbarians, feeling fear and uncertainty
+- Augustine writes the "City of God" in response
+- "Christians have always known that with the coming of Christ comes with a new Age"
+    - This is the New Age Augustine speaks about
+        - Augustine is opposed to the idea that we should figure out when the "end" will be
+        - This is a period of mixed realities:
+            - Society is corrupt
+            - People trying to live moral lives to be able to live in the city of god
+- Culture is for material & earthly matters
+- Opposes Paganism
+
+## Homework
+
+- Read Rodney Stark, “Secularization, R.I.P.” Sociology of Religion 60, no. 3 (1999) 249-273. 
+- Read R. Markus, “Augustine and the Secularisation of Rome,” 31-48 
+- Read Augustine, City of God (fragments, 3 pp) 
