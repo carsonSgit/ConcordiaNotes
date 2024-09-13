@@ -53,6 +53,7 @@ filename = W[WeekNumber]_[Date].md
     - [The Flame and the Flower](https://www.amazon.ca/Flame-Flower-Kathleen-Woodiwiss/dp/0380005255) | **$11.99**
 
 **WITHOUT A DOUBT MANDATORY PURCHASES**:
-    - **LING 222**: [I-Language: An Introduction to Linguistics as Cognitive Science](https://www.argobookshop.ca/item/ZR5XF8H9d6dWOZHcKWZHqw) | **$56.00**
-    - **MATH 204**: [Elementary Linear Algebra 12CE (Concordia University/CUSTOM) 12th edition](https://www.bkstr.com/concordiastore/course-materials-results?shopBy=course&divisionDisplayName=%7C%7C%7C&departmentDisplayName=MATH%7CTHEO%7CENGL%7CLING&courseDisplayName=204%7C233%7C250%7C222&sectionDisplayName=B%7CA%7CA%7CA&programId=4985&termId=100084657) | **$59.00**
-    - **THEO 233**: [Challenge of Pluralism by Monsma](https://www.bkstr.com/concordiastore/course-materials-results?shopBy=course&divisionDisplayName=%7C%7C%7C&departmentDisplayName=MATH%7CTHEO%7CENGL%7CLING&courseDisplayName=204%7C233%7C250%7C222&sectionDisplayName=B%7CA%7CA%7CA&programId=4985&termId=100084657) | **$33.94**
+
+- **LING 222**: [I-Language: An Introduction to Linguistics as Cognitive Science](https://www.argobookshop.ca/item/ZR5XF8H9d6dWOZHcKWZHqw) | **$56.00**
+- **MATH 204**: [Elementary Linear Algebra 12CE (Concordia University/CUSTOM) 12th edition](https://www.bkstr.com/concordiastore/course-materials-results?shopBy=course&divisionDisplayName=%7C%7C%7C&departmentDisplayName=MATH%7CTHEO%7CENGL%7CLING&courseDisplayName=204%7C233%7C250%7C222&sectionDisplayName=B%7CA%7CA%7CA&programId=4985&termId=100084657) | **$59.00**
+- **THEO 233**: [Challenge of Pluralism by Monsma](https://www.bkstr.com/concordiastore/course-materials-results?shopBy=course&divisionDisplayName=%7C%7C%7C&departmentDisplayName=MATH%7CTHEO%7CENGL%7CLING&courseDisplayName=204%7C233%7C250%7C222&sectionDisplayName=B%7CA%7CA%7CA&programId=4985&termId=100084657) | **$33.94**
