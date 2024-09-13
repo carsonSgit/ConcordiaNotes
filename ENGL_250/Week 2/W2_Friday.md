@@ -24,7 +24,7 @@
         - Contemporary issues in general
     - Generally, what is the purpose?
     - What does it try to tell?
-- **Potential good addition** -> A quote reflecting/speaking on the genre
+- **Good addition** -> A quote reflecting/speaking on the genre
 - Benefits of the genre
     - What does it inspire thought about?
 - Explores ethical dilemas? If so, which? How?
@@ -42,12 +42,12 @@
     - Does it reinforce racism
     - Is it built on the backs of others
         - i.e. Stolen media, patriarchal values, negative things
-- **Potential good addition** -> Pose a question to the audience in presentation
+- **Good addition** -> Pose a question to the audience in presentation
     - But if no one answers after like 5 seconds, answer it yourself... :(
 - Did the genre inspire positive change
     - Revolt
     - LGTBQ+ rights
     - etc.
-- **Potential good addition** -> To get people to participate
+- **Good addition** -> To get people to participate
     - Pose question like: Would you rather X or Y
         - Raise your hand if you'd rather X, etc.
