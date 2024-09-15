@@ -19,7 +19,7 @@ A Markdown file to keep myself on track by writting out all the current homework
 
 **LING 222**:
 
-- Computer Assignment
+- Readings
 
 **MATH 204**:
 
