@@ -19,7 +19,10 @@ A Markdown file to keep myself on track by writting out all the current homework
 
 **LING 222**:
 
-- Readings
+- Read Chapters 3 & 4 of I-language 
+- Read up to p. 27 of Mithun and Chafe's Recapturing the Mohawk Language (if link does not work go to additional readings folder above and download whole .zip file)
+- Reaction Paper due Thursday Sept 19 at 8pm
+- Assessment for four RPs due Monday Sept 23 at 10:15AM before class
 
 **MATH 204**:
 
