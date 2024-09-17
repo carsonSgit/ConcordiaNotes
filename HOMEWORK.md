@@ -10,7 +10,7 @@ A Markdown file to keep myself on track by writting out all the current homework
 
 **ENGL 250**:
 
-- Forum Post
+- ~~Forum Post~~
 - Beowolf
 - Review: Race, and Popular Fantasy Literature: Habits of Whiteness
 - The Hobbit
