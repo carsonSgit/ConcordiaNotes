@@ -88,4 +88,4 @@ You are tipping it over.
 **Translation:**
 I am tipping it over.
 
-// write about how we can now see the patterns, it can become apart of our mental grammar and we can start to be able to commuinicate in Mohawk
+Now we can start to see and understand the structure and patterns in Mohawk. We have to understand patterns to be able to compute and recognize English, it is the same for all forms of communication in the world. From these examples we can see that both English and Mohawk and discernable patterns when referring to a pronoun for example (I, you), this demonstrates the concept that all forms of communication are built with the same building blocks. What I mean by this is that if we look at language as nothing but symbols to convey a message, with the English "I" referring to the self, Mohawk has "khará". The concept of language is just an embodiment of communication between one another, and those languages are all built with building blocks that encapsulate things such as pronouns, nouns, etc. All of these building blocks are apart of our mental grammar, and as we all have the ability to communicate, it is a universal grammar.
