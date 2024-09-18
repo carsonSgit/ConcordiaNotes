@@ -37,6 +37,7 @@ Jackendoff argues that this is entirely an implicit knowledge, we aren't told th
 - People do not have to know every word within the Mohawk Language, you simply have to understand the patterns. In English, we have drop/dropped, just as how they have in Mohawk, it is simply executed differently
 
 ## Draft
+
 According to Jackendoff's argument of mental grammar, we are able to create an infinite amount of sentences that may differ in any amount in regards to delivery, while still leaving the message unchanged. Given the core sentence of "Susan walked to the store", we can change things around and bring in some different wording for the same message "Susan made her way to the store". We can also recursively add in new sentences, for example "Susan woke up at 8:10AM and made her way to the store" which then can also be changed to "Susan woke up at 8:10AM and, despite being tired, made her way to the store". This can be done infinitely many ways while maintaining the message of the sentence. However this sort of variation and recursion only works as it respects the rules of mental grammar.
 
 If we change the sentence "Henry ate a bowl of Cheerios" to "Cheerios Henry bowl ate a", we lose all comprehension of the sentence's message. This is because internally, unconsciously, we have a system of rules that lets us generate and compute sentences to be understood, so when a sentence completely disregards those rules, it loses the ability to make sense.
