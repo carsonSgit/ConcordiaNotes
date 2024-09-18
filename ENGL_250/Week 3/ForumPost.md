@@ -1,3 +1,3 @@
 # Fantasy
 
-Fantasy has always been a genre that I enjoyed. Playing D&D as a kid, I was able to immerse myself into worlds like those from my favourite stories. Fantasy has a strong focus on world building in a fantastical yet realistic sense. Based on medieval tales, stories like Lord of The Rings, or games like Skyrim have a sense of immersion, recalling back to the medieval stories left behind in history.
+Fantasy has always been a genre that I enjoyed. Playing D&D as a kid, I was able to immerse myself into worlds like those from my favourite stories. Fantasy has a strong focus on world building in a fantastical yet realistic sense. Based on medieval tales, stories like Lord of The Rings, or games like Skyrim have a sense of immersion and realism, almost as if these stories *are* happening in another world, a world we are transported to through consuming whichever form of media.
