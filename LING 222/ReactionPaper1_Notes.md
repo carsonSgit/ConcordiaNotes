@@ -15,3 +15,18 @@ If we change the sentence "Henry ate a bowl of Cheerios" to "Cheerios Henry bowl
 Mental grammar allows us to understand sentences of varying lengths and complexities regardless of whether or not they are familiar. For example, "The sonnet delivered at the Communion last Sunday reminded me of Shakespeare's *Romeo & Juliet*, specifically near the end of it when they both ended in a tragic fate". This sentence, while referencing multiple different things and bringing the readers attention from one thing to another, still is coherent and comprehensible.
 
 Jackendoff argues that this is entirely an implicit knowledge, we aren't told that our sentence should follow the structure and hierarchy that makes sense to us though we follow these rules unconsciously.
+
+## Notes about Mohawk story
+
+- Multilingual
+- Easily converse between one another through different languages
+- La Prairie 1667, town close-by Montreal to house "praying Indians"
+- Moved to Caughnawaga Reserve by 1719
+- Some moved farther, to Akwesasne from 1755-1759
+- Assimilation, enforcement of white-culture
+- Most people who speak Mohawk are the adults (30-40 years old) or young children
+    - Teenagers and young adults grew up only learning English
+- If the issue continues, it will lead to the loss of many ancestrual Native languages (less practicers in already small population = loss of use)
+- Mohawk is not an easy language to learn, it's structure and grammar differ massively from English which makes it hard for the Mohawk people who grew up only knowing English to learn the language
+- Reversed sentence structure to English
+- **Leaving off at PDF Page 5/16, top left section (the two paragraphs)**
