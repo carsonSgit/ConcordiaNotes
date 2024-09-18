@@ -11,10 +11,10 @@ A Markdown file to keep myself on track by writting out all the current homework
 **ENGL 250**:
 
 - ~~Forum Post~~
-- Beowolf
-- Review: Race, and Popular Fantasy Literature: Habits of Whiteness
-- The Hobbit
-- Tolkien, Lewis, and the Explosion of Genre Fantasy
+- ~~Beowolf~~
+- ~~Review: Race, and Popular Fantasy Literature: Habits of Whiteness~~
+- ~~The Hobbit~~
+- ~~Tolkien, Lewis, and the Explosion of Genre Fantasy~~
 - Start reading book due by Week 4
 
 **LING 222**:
