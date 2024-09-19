@@ -75,7 +75,7 @@
     - Dividing leadership, anti-religious subjects taught in schools, censoring religious publications
     - Cardinal Karol Wojtyla of Poland became Pope John Paul II in 1978 (citizen of Communist Poland)
         - Political impact of this election was enormous and the Soviets realized this
-    - Pope John Paull II supported the Solidarity Workers Union in its reovolt against communism
+    - Pope John Paul II supported the Solidarity Workers Union in its reovolt against communism
     - June 1989, communists ost the elections in Poland, end of Communism in Poland
     - Berlin Wall collapsed a few months later, by the end of 1989 most Eastern European countries got rid of communism
     - Soviet Union then dismantled in 1991
@@ -95,3 +95,11 @@ Documentary listened to in class.
 - Freud disagrees that Religion was the cause for Western success
     - States it was a universal neurosis
     - Religion held civilians back from doing the immoral (primal urges, murder, sex, etc.)
+
+#### Gen Notes
+
+- Link between Modernization and Secularization
+    - Societies that are modernizing become more interested in religion
+- Religion has a strong cultural element
+    - People don't necessarily attend church but they may identify as christian (etc.)
+    - In England, some schools are sought after by parents for their Religious influence, so while families don't practice and attend church, the schools are very coveted to house children for the education quality & religious influence 
