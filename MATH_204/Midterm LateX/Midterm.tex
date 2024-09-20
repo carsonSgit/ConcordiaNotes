@@ -1,0 +1,163 @@
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\section*{Inverting a Matrix through Calculating to RREF}
+
+Given the matrix $A$:
+\[
+A = \begin{bmatrix}
+-4 & 2 & 1 \\
+1 & -2 & 3 \\
+5 & 1 & 2
+\end{bmatrix}
+\]
+
+We want to find $A^{-1}$.
+
+\subsection*{Step 1}
+Start by augmenting $A$ with the identity matrix:
+
+\[
+\left[\begin{array}{ccc|ccc}
+-4 & 2 & 1 & 1 & 0 & 0 \\
+1 & -2 & 3 & 0 & 1 & 0 \\
+5 & 1 & 2 & 0 & 0 & 1 \\
+\end{array}\right]
+\]
+
+Now, swap the rows:
+
+\[
+\left[\begin{array}{ccc|ccc}
+1 & -2 & 3 & 0 & 1 & 0 \\
+-4 & 2 & 1 & 1 & 0 & 0 \\
+5 & 1 & 2 & 0 & 0 & 1 \\
+\end{array}\right]
+\]
+
+Perform Gaussian elimination (row reduction) to convert the left side to the identity matrix. After performing RREF operations, we get:
+
+\[
+\left[\begin{array}{ccc|ccc}
+1 & 0 & 0 & \frac{1}{13} & -\frac{3}{13} & \frac{4}{13} \\
+0 & 1 & 0 & 1 & -1 & 1 \\
+0 & 0 & 1 & -\frac{9}{13} & \frac{14}{13} & -\frac{10}{13} \\
+\end{array}\right]
+\]
+
+\subsection*{Conclusion}
+The left-hand side is now the identity matrix, and the right-hand side is the inverse of $A$:
+
+\[
+A^{-1} = \begin{bmatrix}
+\frac{1}{13} & -\frac{3}{13} & \frac{4}{13} \\
+1 & -1 & 1 \\
+-\frac{9}{13} & \frac{14}{13} & -\frac{10}{13}
+\end{bmatrix}
+\]
+
+If we cannot reduce to RREF, the matrix is not invertible.
+
+\hfill
+\section*{Find $A^{-1}$}
+
+We are solving the system $AX + B = CX$. We want to express it as:
+
+\[
+B = CX - AX
+\]
+\[
+B = (C - A)X
+\]
+
+Thus,
+\[
+(C - A)^{-1}B = X
+\]
+We need to compute $C - A$.
+
+\[
+C - A = \begin{bmatrix}
+1 & 2 \\
+2 & 1
+\end{bmatrix}
+-
+\begin{bmatrix}
+2 & 1 \\
+0 & 6
+\end{bmatrix}
+=
+\begin{bmatrix}
+-1 & 1 \\
+2 & -5
+\end{bmatrix}
+\]
+
+Now, we compute the inverse of $C - A$.
+
+To find $(C - A)^{-1}$, we first compute the determinant:
+
+\[
+\text{det}(C - A) = (-1)(-5) - (2)(1) = 5 - 2 = 3
+\]
+
+Thus,
+
+\[
+(C - A)^{-1} = \frac{1}{3}
+\begin{bmatrix}
+-5 & -1 \\
+-2 & -1
+\end{bmatrix}
+=
+\begin{bmatrix}
+-\frac{5}{3} & -\frac{1}{3} \\
+-\frac{2}{3} & -\frac{1}{3}
+\end{bmatrix}
+\]
+
+Next, we compute:
+
+\[
+(C - A)^{-1}
+\begin{bmatrix}
+0 & 3 \\
+2 & 1
+\end{bmatrix}
+=
+\begin{bmatrix}
+-\frac{5}{3} & -\frac{1}{3} \\
+-\frac{2}{3} & -\frac{1}{3}
+\end{bmatrix}
+\begin{bmatrix}
+0 & 3 \\
+2 & 1
+\end{bmatrix}
+\]
+
+Performing the matrix multiplication:
+
+\[
+\begin{bmatrix}
+-\frac{5}{3}(0) + -\frac{1}{3}(2) & -\frac{5}{3}(3) + -\frac{1}{3}(1) \\
+-\frac{2}{3}(0) + -\frac{1}{3}(2) & -\frac{2}{3}(3) + -\frac{1}{3}(1)
+\end{bmatrix}
+=
+\begin{bmatrix}
+-\frac{2}{3} & -\frac{16}{3} \\
+-\frac{2}{3} & -\frac{7}{3}
+\end{bmatrix}
+\]
+
+Thus, the solution is:
+
+\[
+X = \begin{bmatrix}
+-\frac{2}{3} & -\frac{16}{3} \\
+-\frac{2}{3} & -\frac{7}{3}
+\end{bmatrix}
+\]
+
+\end{document}
