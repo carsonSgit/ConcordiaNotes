@@ -4,4 +4,4 @@
     - What demand does it meet
 - What does it do by existing
 - **Have to cross reference between other genres?**
-    - Figure out what that fully means
+    - How is our genre similar to any other genres
