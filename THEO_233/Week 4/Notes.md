@@ -77,3 +77,9 @@ Thanks to Westphalia, each state is sovereign without reference to any doctrine 
 
 Modernization was often done with the exclusion of religion --> this is what is then claimed by secularism.
 
+**Secularization**: Process of transformations that separates religion from public sphere
+
+- (a) The Theory of *mere secularity*, that is, the phenomological experience of living in a secular world and in a secular age, where being religious may be a normal viable option
+- (b) The Theory of *self-sufficient and exclusive secularity*, that is, the phenomenological experience of living without religion as a normal, quasi-natural, taken-for-granted condition
+- (c) The Theory of *secularist secularity*, that is, the phenomenological experience not only of being apssively free but also actually of having been liberated from "religion" as a condition for human autonomy and human flourishing.
+
