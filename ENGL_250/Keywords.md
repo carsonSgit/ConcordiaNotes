@@ -1,3 +1,89 @@
+## Literature
+
+- Form of expression
+- "elevated kind of expression, on that's invested with sigificant personal and social capital." - Daniel Heath
+- study of written fiction, history of written fiction, under the presumption that culture
+- Descends from rhetoric and philosophy
+
+## Epistemology
+
+- Knowledge about knowing
+- Theory about where knowledge comes from, how it is curated
+    - What knowledge is *allowed* to exist -- what is acceptable
+        - i.e. what is socially permissable
+    - Related to Ontology - study of being/existing
+    - What we are is what we know
+- Literature is a practice of epistemology
+
+## Monomyth
+- i.e. the "Hero's Journey"
+- Master category for all stories
+- Belief that all stories must share a common structure
+- Functionally constrains the idea of creativity and variety in literature
+- Based on **Joseph Campbell's** *Hero with a Thousand Faces* book written in 1949
+
+## Cultural Capital
+
+- Resource that can be acrued, invested, paid off as a form of capital through associations with institutes
+- Method of embuing an institue with a form of power (employment, financial, etc.)
+- Literature holds high cultural capital -- helps people measure objects/things associated with the texts
+- Genre/fiction has a lower tier, "cheaper" kind of cultural capital than literature
+- Literature will be approached as political containers of active ideas.
+
+## Assemblage
+
+- Idea that being and agency emerges from dispersed interactions
+    - Not innate qualities
+    - Not learned
+- More than the sum of all parts involved
+- EVERYTHING the object comes into contact with (history, creators, associations, emotion, etc.) becomes a part of the text
+    - When reading, you bring in yourself to the reading. All of your emotions, thoughts, feelings, personality, etc. gets added *to* that text.
+    - Think "entanglement"
+- Nothing at the *core* of the *thing*, just expanded *layers*.
+- An interaction, kept alive as long as it is being read.
+
+## Binary Opposition
+
+- Concept from Linguistics
+- Concepts only have meaning in relation to an oppositite
+    - Presence/Absence, Hot/Cold, Good/Evil
+- Binary is hierachal in nature
+- Binaries are **unstable**
+    - When you think deep about something, the binary dissapears/changes
+
+## Hard Sci-Fi
+
+- Binary Opposition with Soft Sci-Fi
+- An approach to science fiction
+- Emerged in the 1950s
+    - Typically written by trained scientists
+- Interested in the mechanics of the universe
+    - How it works; what is possible
+- People who work and sacrifice to push science further
+- The big 3:
+    - Arthur C. Clarke, Isaac Asimov, Robert Heinlein
+- Materialist concerns like surviving in space or building organs, etc.
+- Narrative devices rely on accepted scientific principles
+- Imagination is allowed, just has a stronger focus on actual scientific things
+
+## Soft Sci-Fi
+- Binary Opposition with Hard Sci-Fi
+- An *answer* to hard sci-fi
+- Emerged in the 1960s
+- More sociological, character-focused, and psychological focused narratives
+    - Explores how science and technology impacts culture, politics, and society
+- Championed by feminist writers
+- Interested in technology from humanities and social science perspective
+- Less emphasis on the physics or mechanics of technology
+- The unprivileged side of the binary
+    - Binaries often fail with when scrutinized
+    - Most sci-fi writers/readers have an explicit interest in both hard/soft sci-fi even if they may have a preference, as they are based on the same thing, science fiction
+
+## Carrier Bag Theory of Fiction 
+
+- "The bag" has to be the first technology used by the first humans, not a specialized tool like a spear
+- The value from a carrier bag is greater than a tool meant for violence and murder, it has more widespread help and assistance towards mankind
+
 ## Suspension of Disbelief
 
 - Willingly turning away from real-world logic
@@ -39,9 +125,6 @@
     - With some exception, attaining selfhood in fantasy is a process of becoming white
 - Estrangement is a sense of wonder at magic
     - Magic is also a possessement of certain figures
-
-## Culture Capital
-
 
 ## The Culture Industry
 
