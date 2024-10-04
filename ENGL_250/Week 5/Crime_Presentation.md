@@ -61,4 +61,5 @@
     - Does the genre often include reader participation 
       - Childrens' books with textured patches, interactive art, etc.
 - **Discussion Questions**
-    - If asking questions, put in heavy effort to make them interesting. 
+    - If asking questions, put in heavy effort to make them interesting
+    - Kahoot is helpful to make it a fun way to get engagement 
