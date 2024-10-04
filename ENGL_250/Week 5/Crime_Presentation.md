@@ -60,3 +60,5 @@
 - Participation of Reader
     - Does the genre often include reader participation 
       - Childrens' books with textured patches, interactive art, etc.
+- **Discussion Questions**
+    - If asking questions, put in heavy effort to make them interesting. 
