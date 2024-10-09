@@ -1,7 +1,7 @@
 ## Literature
 
 - Form of expression
-- "elevated kind of expression, on that's invested with sigificant personal and social capital." - Daniel Heath
+- "elevated kind of expression, one that's invested with sigificant personal and social capital." - Daniel Heath
 - study of written fiction, history of written fiction, under the presumption that culture
 - Descends from rhetoric and philosophy
 
@@ -103,6 +103,8 @@
 - Fantasy is a fiction of estrangement
     - Calls attention to what is liminal
     - Makes common things strange and surreal
+- Estrangement is a sense of wonder at magic
+    - Magic is also a possessement of certain figures
 
 ## Eucatastrophe 
 
@@ -123,8 +125,6 @@
         - The normal or default understanding of a human being
 - Fantasy literature builds on whiteness as a social norm
     - With some exception, attaining selfhood in fantasy is a process of becoming white
-- Estrangement is a sense of wonder at magic
-    - Magic is also a possessement of certain figures
 
 ## The Culture Industry
 
@@ -158,7 +158,7 @@
 
 ## Hermeneutics of Repair
 
-- Not a replacement or a duality against parania
+- Not a replacement or a duality against paranoia
 - A method of reading from a place of hope and joy
 - Critiques interested in building up and creating
 
