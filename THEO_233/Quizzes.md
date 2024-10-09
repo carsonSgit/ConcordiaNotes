@@ -2,7 +2,7 @@
 
 - Get a study guide
 - Open for over 24hrs
-- 40 minute timer
+- 45 minute timer
 - 20 questions
   - Give or take 2 minutes per question alotted
   - Multiple choice
