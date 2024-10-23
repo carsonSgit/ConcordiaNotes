@@ -3,7 +3,6 @@ import { graphql, Link } from "gatsby";
 import styled, { createGlobalStyle, ThemeProvider } from "styled-components";
 import _ from "lodash";
 
-// Define your themes
 const themes = {
   light: {
     body: '#ecf0f1',
@@ -11,13 +10,17 @@ const themes = {
     title: '#264653',
     buttonBg: '#1e7a68',
     buttonHoverBg: '#155448',
+    classCotainerBg: '#fff',
+    noteLink: '#1d8d55'
   },
   dark: {
-    body: '#2c3e50',
+    body: '#586b60',
     text: '#ecf0f1',
     title: '#d9e1ea',
     buttonBg: '#1e7a68',
     buttonHoverBg: '#155448',
+    classCotainerBg: '#cfd7cf',
+    noteLink: '#176e42'
   },
 };
 
@@ -63,7 +66,7 @@ const ToggleButton = styled.button`
 const ClassContainer = styled.div`
   margin-bottom: 2rem;
   padding: 1rem;
-  background-color: #fff;
+  background-color: ${({ theme }) => theme.classCotainerBg};
   border-radius: 6px;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 `;
@@ -96,7 +99,7 @@ const NoteItem = styled.li`
 
 const NoteLink = styled(Link)`
   text-decoration: none;
-  color: #1d8d55;
+  color: ${({ theme }) => theme.noteLink};
   padding: 0.5rem;
   border-radius: 4px;
   transition: 0.2s ease-in-out;
