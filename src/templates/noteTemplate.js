@@ -41,11 +41,12 @@ const BackButton = styled.button `
   border: 2px solid #ffffff;
   border-radius: 8px;
   background-color: #2a9d8f;
-  color: #ffffff;
-  
-  
+  color: #ffffff;  
+  transition: background-color 0.3s;
+
   &:hover {
-   cursor: pointer;
+  cursor: pointer;
+  background-color: #155448;
  }
 `
 
