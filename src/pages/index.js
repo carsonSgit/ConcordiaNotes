@@ -1,7 +1,33 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { graphql, Link } from "gatsby";
-import styled from "styled-components";
+import styled, { createGlobalStyle, ThemeProvider } from "styled-components";
 import _ from "lodash";
+
+// Define your themes
+const themes = {
+  light: {
+    body: '#ecf0f1',
+    text: '#34495e',
+    title: '#264653',
+    buttonBg: '#1e7a68',
+    buttonHoverBg: '#155448',
+  },
+  dark: {
+    body: '#2c3e50',
+    text: '#ecf0f1',
+    title: '#d9e1ea',
+    buttonBg: '#1e7a68',
+    buttonHoverBg: '#155448',
+  },
+};
+
+const GlobalStyle = createGlobalStyle`
+  body {
+    background-color: ${({ theme }) => theme.body};
+    color: ${({ theme }) => theme.text};
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+`;
 
 const Container = styled.div`
   padding: 2rem;
@@ -13,9 +39,25 @@ const Container = styled.div`
 
 const Title = styled.h1`
   font-size: 2rem;
-  color: #264653;
+  color: ${({ theme }) => theme.title};
   text-align: center;
   margin-bottom: 2rem;
+`;
+
+const ToggleButton = styled.button`
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: ${({ theme }) => theme.buttonBg};
+  color: white;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+  
+  &:hover {
+    background-color: ${({ theme }) => theme.buttonHoverBg};
+  }
 `;
 
 const ClassContainer = styled.div`
@@ -66,34 +108,55 @@ const NoteLink = styled(Link)`
 `;
 
 const IndexPage = ({ data }) => {
+  const [theme, setTheme] = useState('light');
+
+  useEffect(() => {
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme) {
+      setTheme(savedTheme);
+    }
+  }, []);
+
+  const toggleTheme = () => {
+    const newTheme = theme === 'light' ? 'dark' : 'light';
+    setTheme(newTheme);
+    localStorage.setItem('theme', newTheme);
+  };
+
   const notes = data.allMarkdownRemark.edges;
   const groupedByClass = _.groupBy(notes, note => note.node.parent.relativeDirectory.split('/')[0]);
 
   return (
-    <Container>
-      <Title>Concordia Notes</Title>
-      {Object.keys(groupedByClass).map(className => (
-        <ClassContainer key={className}>
-          <ClassTitle>{className}</ClassTitle>
-          {Object.entries(_.groupBy(groupedByClass[className], note => note.node.parent.relativeDirectory.split('/')[1])).map(
-            ([weekName, weekNotes]) => (
-              <WeekContainer key={weekName}>
-                <WeekTitle>{weekName}</WeekTitle>
-                <NoteList>
-                  {weekNotes.map(({ node }) => (
-                    <NoteItem key={node.fields.slug}>
-                      <NoteLink to={node.fields.slug}>
-                        {node.frontmatter.title || node.fields.slug}
-                      </NoteLink>
-                    </NoteItem>
-                  ))}
-                </NoteList>
-              </WeekContainer>
-            )
-          )}
-        </ClassContainer>
-      ))}
-    </Container>
+    <ThemeProvider theme={themes[theme]}>
+      <Container>
+        <GlobalStyle />
+        <ToggleButton onClick={toggleTheme}>
+          {theme === 'light' ? 'Dark' : 'Light'} Mode
+        </ToggleButton>
+        <Title>Concordia Notes</Title>
+        {Object.keys(groupedByClass).map(className => (
+          <ClassContainer key={className}>
+            <ClassTitle>{className}</ClassTitle>
+            {Object.entries(_.groupBy(groupedByClass[className], note => note.node.parent.relativeDirectory.split('/')[1])).map(
+              ([weekName, weekNotes]) => (
+                <WeekContainer key={weekName}>
+                  <WeekTitle>{weekName}</WeekTitle>
+                  <NoteList>
+                    {weekNotes.map(({ node }) => (
+                      <NoteItem key={node.fields.slug}>
+                        <NoteLink to={node.fields.slug}>
+                          {node.frontmatter.title || node.fields.slug}
+                        </NoteLink>
+                      </NoteItem>
+                    ))}
+                  </NoteList>
+                </WeekContainer>
+              )
+            )}
+          </ClassContainer>
+        ))}
+      </Container>
+    </ThemeProvider>
   );
 };
 
