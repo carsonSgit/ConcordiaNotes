@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, navigate } from "gatsby"
 import styled from "styled-components"
 
 // Styled Components
@@ -35,12 +35,27 @@ const Content = styled.div`
   }
 `
 
+const BackButton = styled.button `  
+  font-size: 1em;
+  padding: 0.5em 0.8em;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+  background-color: #2a9d8f;
+  color: #ffffff;
+  
+  
+  &:hover {
+   cursor: pointer;
+ }
+`
+
 const NoteTemplate = ({ data }) => {
   const { markdownRemark } = data
   const { frontmatter, html } = markdownRemark
 
   return (
     <Container>
+      <BackButton onClick={()=>navigate(-1)}>←</BackButton>
       <Title>{frontmatter.title}</Title>
       <Content dangerouslySetInnerHTML={{ __html: html }} />
     </Container>
