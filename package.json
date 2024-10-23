@@ -1,0 +1,32 @@
+{
+  "name": "concordianotes",
+  "version": "1.0.0",
+  "description": "Notes taken for my courses at Concordia University.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carsonSgit/ConcordiaNotes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carsonSgit/ConcordiaNotes/issues"
+  },
+  "homepage": "https://github.com/carsonSgit/ConcordiaNotes#readme",
+  "dependencies": {
+    "gatsby": "^5.13.7",
+    "gatsby-plugin-sharp": "^5.13.1",
+    "gatsby-plugin-styled-components": "^6.13.1",
+    "gatsby-source-filesystem": "^5.13.1",
+    "gatsby-transformer-remark": "^6.13.1",
+    "gatsby-transformer-sharp": "^5.13.1",
+    "lodash": "^4.17.21",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "styled-components": "^6.1.13"
+  }
+}
