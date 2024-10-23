@@ -1,0 +1,20 @@
+{
+  "name": "concordianotes",
+  "version": "1.0.0",
+  "description": "Notes taken for my courses at Concordia University.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carsonSgit/ConcordiaNotes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carsonSgit/ConcordiaNotes/issues"
+  },
+  "homepage": "https://github.com/carsonSgit/ConcordiaNotes#readme"
+}
