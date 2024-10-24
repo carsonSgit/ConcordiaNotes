@@ -22,9 +22,8 @@ exports.createPages = async ({ graphql, actions }) => {
   `);
 
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-    pathPrefix = "/ConcordiaNotes";
-    createPage(
-      {path: `${pathPrefix}${node.fields.slug}`,
+    createPage({
+      path: node.fields.slug,
       component: path.resolve(`./src/templates/noteTemplate.js`),
       context: {
         id: node.id,
@@ -33,17 +32,19 @@ exports.createPages = async ({ graphql, actions }) => {
   });
 };
 
-exports.onCreateNode = ({ node, actions, getNode }) => {
+exports.onCreateNode = ({ node, actions, getNode, reporter }) => {
   const { createNodeField } = actions;
 
-  if (node.internal.type === "MarkdownRemark") {
+  if (node.internal.type === 'MarkdownRemark') {
     const fileNode = getNode(node.parent);
-    const slug = `/notes/${fileNode.relativeDirectory}/${fileNode.name}`;
+    const slug = `/ConcordiaNotes/notes/${fileNode.relativeDirectory}/${fileNode.name}`;
 
     createNodeField({
       node,
-      name: "slug",
+      name: 'slug',
       value: slug,
     });
+
+    reporter.info(`Created slug: ${slug}`);
   }
 };
