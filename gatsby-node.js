@@ -2,7 +2,7 @@ const path = require('path');
 
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
-  
+
   const result = await graphql(`
     {
       allMarkdownRemark {
@@ -23,7 +23,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
     createPage({
-      path: node.fields.slug,
+      path: node.fields.slug, 
       component: path.resolve(`./src/templates/noteTemplate.js`),
       context: {
         id: node.id,
@@ -37,7 +37,7 @@ exports.onCreateNode = ({ node, actions, getNode, reporter }) => {
 
   if (node.internal.type === 'MarkdownRemark') {
     const fileNode = getNode(node.parent);
-    const slug = `/ConcordiaNotes/notes/${fileNode.relativeDirectory}/${fileNode.name}`;
+    const slug = `/notes/${fileNode.relativeDirectory}/${fileNode.name}`; 
 
     createNodeField({
       node,
