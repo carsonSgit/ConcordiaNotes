@@ -13,7 +13,7 @@ module.exports = {
       {
         resolve: `gatsby-source-filesystem`,
         options: {
-          name: `/ConcordiaNotes/notes`,
+          name: `notes`,
           path: `${__dirname}/Notes`,
         },
       },
