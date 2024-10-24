@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/ConcordiaNotes",  // Only defined here, Gatsby handles it
+  pathPrefix: "/ConcordiaNotes",
   siteMetadata: {
     title: `Concordia Notes`,
     description: `Displaying my notes on a website so it's easier to access.`,

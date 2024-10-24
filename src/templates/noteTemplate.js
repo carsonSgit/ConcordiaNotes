@@ -1,8 +1,7 @@
-import React from "react"
-import { graphql, navigate } from "gatsby"
-import styled from "styled-components"
+import React from "react";
+import { graphql, navigate } from "gatsby";
+import styled from "styled-components";
 
-// Styled Components
 const Container = styled.div`
   padding: 2rem;
   font-family: Arial, sans-serif;
@@ -51,8 +50,8 @@ const BackButton = styled.button `
 `
 
 const NoteTemplate = ({ data }) => {
-  const { markdownRemark } = data
-  const { frontmatter, html } = markdownRemark
+  const { markdownRemark } = data;
+  const { frontmatter, html } = markdownRemark;
 
   return (
     <Container>
