@@ -22,6 +22,7 @@ exports.createPages = async ({ graphql, actions }) => {
   `);
 
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+    pathPrefix = "/ConcordiaNotes";
     createPage(
       {path: `${pathPrefix}${node.fields.slug}`,
       component: path.resolve(`./src/templates/noteTemplate.js`),
