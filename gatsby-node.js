@@ -37,7 +37,7 @@ exports.onCreateNode = ({ node, actions, getNode, reporter }) => {
 
   if (node.internal.type === 'MarkdownRemark') {
     const fileNode = getNode(node.parent);
-    const slug = `/notes/${fileNode.relativeDirectory}/${fileNode.name}`; 
+    const slug = `ConcordiaNotes/notes/${fileNode.relativeDirectory}/${fileNode.name}`; 
 
     createNodeField({
       node,
