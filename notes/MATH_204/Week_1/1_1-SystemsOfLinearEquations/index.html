@@ -1,0 +1,120 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><meta name="generator" content="Gatsby 5.13.7"/><style data-styled="" data-styled-version="6.1.13">body{background-color:#ecf0f1;color:#34495e;transition:background-color 0.3s ease,color 0.3s ease;}/*!sc*/
+data-styled.g1[id="sc-global-ciROhR1"]{content:"sc-global-ciROhR1,"}/*!sc*/
+.begLqc{padding:2rem;font-family:Arial,sans-serif;}/*!sc*/
+data-styled.g2[id="noteTemplate__Container-sc-i9uzr6-0"]{content:"begLqc,"}/*!sc*/
+.fbVKSv{color:#264653;margin-bottom:1rem;}/*!sc*/
+data-styled.g3[id="noteTemplate__Title-sc-i9uzr6-1"]{content:"fbVKSv,"}/*!sc*/
+.gzQqXz{font-size:1rem;line-height:1.5;color:#34495e;}/*!sc*/
+.gzQqXz a{color:#1f756a;}/*!sc*/
+.gzQqXz a:hover{color:#195d54;}/*!sc*/
+.gzQqXz h2,.gzQqXz h3,.gzQqXz h4,.gzQqXz h5,.gzQqXz h6{color:#2a9d8f;}/*!sc*/
+.gzQqXz p{margin-bottom:1rem;}/*!sc*/
+data-styled.g4[id="noteTemplate__Content-sc-i9uzr6-2"]{content:"gzQqXz,"}/*!sc*/
+.gCszeY{font-size:1em;padding:0.5em 0.8em;border:2px solid #fff;border-radius:8px;background-color:#1f756a;color:#fff;transition:background-color 0.3s;}/*!sc*/
+.gCszeY:hover{cursor:pointer;background-color:#195d54;}/*!sc*/
+data-styled.g5[id="noteTemplate__BackButton-sc-i9uzr6-3"]{content:"gCszeY,"}/*!sc*/
+</style></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="noteTemplate__Container-sc-i9uzr6-0 begLqc"><button class="noteTemplate__BackButton-sc-i9uzr6-3 gCszeY">←</button><h1 class="noteTemplate__Title-sc-i9uzr6-1 fbVKSv"></h1><div class="noteTemplate__Content-sc-i9uzr6-2 gzQqXz"><h1>Systems of Linear Equations</h1>
+<p>If b=0 --> Homogeneous Linear Equation
+If b!=0 --> Non-Homogeneous Linear Equation</p>
+<p>How to determine what form of solution is in a System of Equations</p>
+<ol>
+<li>No solutions
+<ul>
+<li>There are no solutions if there is no point of intersection between <code>n</code> amount of equations</li>
+</ul>
+</li>
+<li>Unique solution
+<ul>
+<li>There is only <strong>one</strong> point of intersection</li>
+</ul>
+</li>
+<li>Infinite solutions
+<ul>
+<li>There are points of intersection at every point (i.e. the lines are overlapping)</li>
+</ul>
+</li>
+</ol>
+<p>--> If there is more than one solution, we know that the system of equations has infinite solutions</p>
+<p>Example:</p>
+<pre><code>x + y = 2
+
+# this could be solved with a set of infinite numbers as long as the addition = 2 
+# ex:
+x = 1
+y = 1
+1 + 1 = 2
+
+# or
+x = -3
+y = 5
+-3 + 5 = 2
+
+# so, in a case like this, we need to bring in a parametric value. a parametric value is any real number
+# to do this, let's create a formula to define the solution with respect to x
+x = -y + 2
+
+# now we introduce our parametric value t. t is declared as being any real number (1, -10000, 32913, etc.)
+t => R 
+y = t
+x = -t + 2
+</code></pre>
+<h3>Augmented Matrices</h3>
+<p>Example:
+Take the following two linear functions</p>
+<ol>
+<li>x + y = 2</li>
+<li>2x + 2y = 4</li>
+</ol>
+<p>Now we have to plot this into an Augmented Matrix</p>
+<pre><code># imagine that the array brackets are just one tall bracket rather than two lines
+# below is an example of the formatting for a matrix
+[coefficientX  coefficientY  valueEqualTo]
+
+# now lets do that for our linear functions
+[1  1  2]
+[2  2  4]
+
+# note that m = rows, n = columns. meaning that a13 for the matrix above refers to value 2
+</code></pre>
+<p>There are 3 main ways to find a solution</p>
+<ol>
+<li>Multiply an equation by a nonzero constant
+<ul>
+<li>This is often done to make coefficients in the equations match or to simplify the equations for further steps.</li>
+</ul>
+</li>
+<li>Interchange two equations
+<ul>
+<li>Doesn't alter anything, just allows you to bring the most convenient equations into prominent positions.</li>
+</ul>
+</li>
+<li>Add a constant times one equation (i.e. constant = a value related two the equations given, multiply this constant on one of the linear equations) to another equation (algebraically add the two)
+<ul>
+<li>This operation is used to eliminate a variable or to simplify the system. You can also subtract a multiple of one equation from another.</li>
+</ul>
+</li>
+</ol>
+<p>There are 3 main ways to solve a matrix (Elementary Row Operations, EROs)</p>
+<ol>
+<li>Multiply a row by a non zero constant
+<ul>
+<li>Example: If you have a matrix row of [2 4 6] and you multiple it by 1/2 (0.5), you now have [1 2 3] which leads you to a leading 1.</li>
+</ul>
+</li>
+<li>Swap two rows
+<ul>
+<li>This operation is useful for positioning rows in a desirable order, often to place a row with a leading 1 in the topmost position or to make a matrix in <strong>row echelon form</strong>.</li>
+</ul>
+</li>
+<li>Add a constant times one row to another
+<ul>
+<li>This involves adding a multiple of one row to another row in the matrix. This operation helps in creating zeros in specific positions or simplifying the matrix to row echelon form.</li>
+</ul>
+</li>
+</ol></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/notes/MATH_204/Week_1/1_1-SystemsOfLinearEquations/";/*]]>*/</script><!-- slice-start id="_gatsby-scripts-1" -->
+          <script
+            id="gatsby-chunk-mapping"
+          >
+            window.___chunkMapping="{\"app\":[\"/app-680e0fd683650ae5580b.js\"],\"component---src-pages-index-js\":[\"/component---src-pages-index-js-2d23a026c27ee6948267.js\"],\"component---src-templates-note-template-js\":[\"/component---src-templates-note-template-js-133c79a6fc40aa097969.js\"]}";
+          </script>
+        <script>window.___webpackCompilationHash="362e3d12403965e8637d";</script><script src="/webpack-runtime-d35dde078b4c98411976.js" async></script><script src="/framework-df30af87c4b63002e272.js" async></script><script src="/app-680e0fd683650ae5580b.js" async></script><!-- slice-end id="_gatsby-scripts-1" --></body></html>
