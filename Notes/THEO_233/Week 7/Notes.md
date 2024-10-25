@@ -5,3 +5,4 @@
 "Believing without belonging" - Grace Davie
 
 Public Utility: In Europe, Religious entities have been declared as public utilities.
+
