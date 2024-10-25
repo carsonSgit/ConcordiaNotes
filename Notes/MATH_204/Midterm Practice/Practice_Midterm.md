@@ -255,3 +255,39 @@ Cofactor matrix
 
 -16 - 60 + -16 - 39 = -131
 ```
+
+# Q6 (NOT DONE)
+
+```
+a1(u1) + a2(u2) + a3(u3) = V
+
+V = (2, -5, 3)
+
+u1 = (1, -3, 2)
+u2 = (2, -4, -1)
+u3 = (1, -5, 7)
+
+```
+
+# Extra Problems
+
+## Find a Cubic Polynomial (NOT DONE, STEPS WRITTEN)
+
+```
+P(x) = ax^3 + bx^2 + cx + d 
+
+# solve so that..
+
+P(-1) = 0, P(1) = 4, P(2) = 3, P(3) = 16
+
+# meaning these must hold true
+
+a(-1)^3 + b(-1)^2 + c(-1) + d = 0
+a(1)^3 + b(1)^2 + c(1) + d = 4
+a(2)^3 + b(2)^2 + c(2) + d = 3
+a(3)^3 + b(3)^2 + c(3) + d = 16
+
+# simplify to a linear system (create a matrix)
+
+
+```
