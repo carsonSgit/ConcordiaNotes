@@ -4,7 +4,7 @@
   "description": "Notes taken for my courses at Concordia University.",
   "main": "index.js",
   "scripts": {
-    "build": "gatsby build",
+    "build": "gatsby build --prefix-paths",
     "deploy": "gatsby build && gh-pages -d public -b gh-pages"
   },
   "repository": {
