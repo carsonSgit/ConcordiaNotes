@@ -8,10 +8,11 @@ const theme = {
   body: '#ecf0f1',
   text: '#34495e',
   title: '#264653',
-  buttonBg: '#1e7a68',
-  buttonHoverBg: '#155448',
-  classContainerBg: '#fff',
-  noteLink: '#1d8d55'
+  h2: '#2a9d8f',
+  h3: '#264653',
+  element: '#1d8d55',
+  elementHover: '#46b989',
+  generalBg: '#fff'
 };
 
 const GlobalStyle = createGlobalStyle`
@@ -40,14 +41,14 @@ const Title = styled.h1`
 const ClassContainer = styled.div`
   margin-bottom: 2rem;
   padding: 1rem;
-  background-color: ${({ theme }) => theme.classContainerBg};
+  background-color: ${({ theme }) => theme.generalBg};
   border-radius: 6px;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 `;
 
 const ClassTitle = styled.h2`
   font-size: 1.5rem;
-  color: #2a9d8f;
+  color: ${({ theme }) => theme.h2};
   margin-bottom: 0.5rem;
 `;
 
@@ -58,7 +59,7 @@ const WeekContainer = styled.div`
 
 const WeekTitle = styled.h3`
   font-size: 1.25rem;
-  color: #264653;
+  color: ${({ theme }) => theme.h3};
   margin-bottom: 0.5rem;
 `;
 
@@ -73,14 +74,14 @@ const NoteItem = styled.li`
 
 const NoteLink = styled(Link)`
   text-decoration: none;
-  color: ${({ theme }) => theme.noteLink};
+  color: ${({ theme }) => theme.element};
   padding: 0.5rem;
   border-radius: 4px;
   transition: 0.2s ease-in-out;
 
   &:hover {
-    background-color: #46b989;
-    color: #fff;
+    background-color: ${({ theme }) => theme.elementHover};
+    color: ${({ theme }) => theme.generalBg};
   }
 `;
 

@@ -1,33 +1,51 @@
 import React from "react"
 import { graphql, navigate } from "gatsby"
-import styled from "styled-components"
+import styled, { createGlobalStyle, ThemeProvider } from "styled-components";
 
-// Styled Components
+// Change these to fit your preferred colour style
+const theme = {
+  body: '#ecf0f1',
+  text: '#34495e',
+  title: '#264653',
+  headings: '#2a9d8f',
+  generalBg: '#fff',
+  element: '#1f756a',
+  elementHover: '#195d54',
+};
+
+const GlobalStyle = createGlobalStyle`
+  body {
+    background-color: ${({ theme }) => theme.body};
+    color: ${({ theme }) => theme.text};
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+`;
+
 const Container = styled.div`
   padding: 2rem;
   font-family: Arial, sans-serif;
 `
 
 const Title = styled.h1`
-  color: #264653;
+  color: ${({ theme }) => theme.title};
   margin-bottom: 1rem;
 `
 
 const Content = styled.div`
   font-size: 1rem;
   line-height: 1.5;
-  color: #333;
+  color: ${({ theme }) => theme.text};
 
   a {
-    color: #1d8d55;
-
+    color: ${({ theme }) => theme.element};
+    
     &:hover {
-      color: #46b989;
+      color: ${({ theme }) => theme.elementHover};
     }
   }
 
   h2, h3, h4, h5, h6 {
-    color: #2a9d8f;
+    color: ${({ theme }) => theme.headings};
   }
 
   p {
@@ -38,15 +56,15 @@ const Content = styled.div`
 const BackButton = styled.button `  
   font-size: 1em;
   padding: 0.5em 0.8em;
-  border: 2px solid #ffffff;
+  border: 2px solid ${({ theme }) => theme.generalBg};
   border-radius: 8px;
-  background-color: #2a9d8f;
-  color: #ffffff;  
+  background-color: ${({ theme }) => theme.element};
+  color: ${({ theme }) => theme.generalBg};  
   transition: background-color 0.3s;
 
   &:hover {
   cursor: pointer;
-  background-color: #155448;
+  background-color: ${({ theme }) => theme.elementHover};
  }
 `
 
@@ -55,11 +73,14 @@ const NoteTemplate = ({ data }) => {
   const { frontmatter, html } = markdownRemark
 
   return (
-    <Container>
-      <BackButton onClick={()=>navigate(-1)}>←</BackButton>
-      <Title>{frontmatter.title}</Title>
-      <Content dangerouslySetInnerHTML={{ __html: html }} />
-    </Container>
+    <ThemeProvider theme={theme}>
+      <Container>
+        <GlobalStyle />
+        <BackButton onClick={()=>navigate('/')}>←</BackButton>
+        <Title>{frontmatter.title}</Title>
+        <Content dangerouslySetInnerHTML={{ __html: html }} />
+      </Container>
+    </ThemeProvider>
   )
 }
 
