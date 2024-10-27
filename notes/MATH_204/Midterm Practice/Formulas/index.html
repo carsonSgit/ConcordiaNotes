@@ -1,0 +1,105 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><meta name="generator" content="Gatsby 5.13.7"/><style data-styled="" data-styled-version="6.1.13">body{background-color:#ecf0f1;color:#34495e;transition:background-color 0.3s ease,color 0.3s ease;}/*!sc*/
+data-styled.g1[id="sc-global-ciROhR1"]{content:"sc-global-ciROhR1,"}/*!sc*/
+.begLqc{padding:2rem;font-family:Arial,sans-serif;}/*!sc*/
+data-styled.g11[id="noteTemplate__Container-sc-i9uzr6-0"]{content:"begLqc,"}/*!sc*/
+.fbVKSv{color:#264653;margin-bottom:1rem;}/*!sc*/
+data-styled.g12[id="noteTemplate__Title-sc-i9uzr6-1"]{content:"fbVKSv,"}/*!sc*/
+.gzQqXz{font-size:1rem;line-height:1.5;color:#34495e;}/*!sc*/
+.gzQqXz a{color:#1f756a;}/*!sc*/
+.gzQqXz a:hover{color:#195d54;}/*!sc*/
+.gzQqXz h2,.gzQqXz h3,.gzQqXz h4,.gzQqXz h5,.gzQqXz h6{color:#2a9d8f;}/*!sc*/
+.gzQqXz p{margin-bottom:1rem;}/*!sc*/
+data-styled.g13[id="noteTemplate__Content-sc-i9uzr6-2"]{content:"gzQqXz,"}/*!sc*/
+.gCszeY{font-size:1em;padding:0.5em 0.8em;border:2px solid #fff;border-radius:8px;background-color:#1f756a;color:#fff;transition:background-color 0.3s;}/*!sc*/
+.gCszeY:hover{cursor:pointer;background-color:#195d54;}/*!sc*/
+data-styled.g14[id="noteTemplate__BackButton-sc-i9uzr6-3"]{content:"gCszeY,"}/*!sc*/
+</style></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="noteTemplate__Container-sc-i9uzr6-0 begLqc"><button class="noteTemplate__BackButton-sc-i9uzr6-3 gCszeY">←</button><h1 class="noteTemplate__Title-sc-i9uzr6-1 fbVKSv"></h1><div class="noteTemplate__Content-sc-i9uzr6-2 gzQqXz"><h1>Determinant of a 2x2 Matrix</h1>
+<pre><code>A = 
+ a b
+ c d
+
+detA = ad - bc
+</code></pre>
+<h1>Inverse of a 2x2 Matrix</h1>
+<pre><code># note that a matrix is only invertible if the determinant != 0
+
+originalMatrix = 
+ a  b
+ c  d
+
+A^-1 = 1/(detA) * newMatrix
+
+newMatrix = 
+ d -b
+-c  a
+</code></pre>
+<h1>Inverse of n x n Matrix where n > 2</h1>
+<pre><code>A is our matrix
+I is the identity matrix
+
+[A | I]
+
+Go through Gauss-Jordan until you reach RREF, the I matrix will now be the A^-1
+
+If through Gauss-Jordan you notice that A cannot reach RREF (a row is just zeros), then we know it is not invertible
+</code></pre>
+<h1>Cramer's Rule</h1>
+<pre><code>ax + by + cz = d1
+ax + by + cz = d2
+ax + by + cz = d3
+
+get the determinant of 
+
+ax + by + cz
+ax + by + cz
+ax + by + cz
+
+then get the determinants from subbing in the rhs 
+
+d1 + by + cz
+d2 + by + cz
+d3 + by + cz
+
+and then
+
+ax + d1 + cz
+ax + d2 + cz
+ax + d3 + cz
+
+and finish it
+
+you will then do
+
+detX/det = Cramer rule determinant
+detY/det = Cramer rule determinant
+detZ/det = Cramer rule determinant
+
+all of these values are then listed (x,y,z)
+</code></pre>
+<h1>Norm of a Vector</h1>
+<pre><code>sqrt(v1^2 + v2^2 + v3^2 + ...) = ||v||
+</code></pre>
+<h1>Unit Vector</h1>
+<pre><code>u = (1/||v||)*v
+</code></pre>
+<h1>Distance between Vectors</h1>
+<pre><code>d(a-b) -> distance between vector a &#x26; b
+
+||a-b|| -> get the norm of the difference
+
+sqrt((a1-b1)^2 + (a2-b2)^2 + ...) = d(a-b)
+</code></pre>
+<h1>Dot Product</h1>
+<pre><code>v * w -> formula
+
+(v1*w1) + (v2*w2) + ... => dot product
+</code></pre>
+<h1>Angle between Vectors using Dot Product</h1>
+<pre><code>cos^-1((u * v)/||u||||v||) -> cos^-1 of u dot product v over norm of u times v
+</code></pre></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/notes/MATH_204/Midterm Practice/Formulas/";/*]]>*/</script><!-- slice-start id="_gatsby-scripts-1" -->
+          <script
+            id="gatsby-chunk-mapping"
+          >
+            window.___chunkMapping="{\"app\":[\"/app-15cdc14c91aff9b24428.js\"],\"component---src-pages-index-js\":[\"/component---src-pages-index-js-2d23a026c27ee6948267.js\"],\"component---src-templates-note-template-js\":[\"/component---src-templates-note-template-js-133c79a6fc40aa097969.js\"]}";
+          </script>
+        <script>window.___webpackCompilationHash="d7d73ddab00addd937c8";</script><script src="/ConcordiaNotes/webpack-runtime-94acd9e7db738ead0433.js" async></script><script src="/ConcordiaNotes/framework-df30af87c4b63002e272.js" async></script><script src="/ConcordiaNotes/app-15cdc14c91aff9b24428.js" async></script><!-- slice-end id="_gatsby-scripts-1" --></body></html>
