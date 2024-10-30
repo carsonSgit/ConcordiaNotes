@@ -178,3 +178,39 @@
     - Perpetual pedestrian
 - Free to obeserve while being unobserved
     - Graeme Gilloch - Noir sans frontiers    
+
+
+## Bricolage
+
+- Building out of existing material
+- In cultural anthropology, myths are built only out of what already exists
+  - Claude Levi-Strauss
+- Every cultural object is a building block that can be used in other cultural objects
+  - Epistemological Project
+  - Everything becomes a block that can be used in building something else
+
+
+## Abjection
+
+- From Julia Kristeva's *Powers of Horror* (1980)
+- The abject is the intermediary between subject and object
+- The subject is the thinking, agential, psychological being
+  - In grammar, the subject is the thing that acts
+- Object is the inert, mechanical, non-being
+  - In grammar, the object is the thing that is acted on 
+- Abjection is **waste**
+  - It inspires disgust
+- Subjectivity is tied to the body
+  - The sense of abjection is the same feeling toward bodily waste
+- Abjection is not totally alien, but it is relatable in ways that are shameful or gross
+- The abject is also unknowable
+  - What if all we are is the waste we leave behind?
+- The criminal and the monster are irrational
+
+## Sublimation
+
+- The Sublime is something of indescribable beauty
+  - Aesthetic, mathematical, spiritual
+- Sublimation is the process of turning something unacceptable into something acceptable
+  - Fear of death into enjoyment of fear
+  - Disgust of Otherness into a monster
