@@ -47,18 +47,17 @@ Now, I will be bridging into texts that were not assigned and the values they ai
 
 
 ## **Modern Vs. Classic Children's Literature**
+- Modern
+	- Stories like Where the Wild Things are showcase that children are complex beings
+	- Capable of "good" and "bad"
+	- Capable of managing/express their emotions rather than simply be rewarded for virtuous behaviour and punished for bad
+	- More nuanced view of what childhood is, with values focused on emotional growth and self exploration
 - Classic
 	- Stories like Cinderella showcase a black and white view of things
 	- Clear differentiation between good and bad
 	- Virtues of patience and obedience are celebrated
 	- Vice results in envy and jealousy
 	- Reflects older societal view of childhood as a time to teach clear moral *lessons* and reinforce traditional values
-- Modern
-	- Stories like Where the Wild Things are showcase that children are complex beings
-	- Capable of "good" and "bad"
-	- Capable of managing/express their emotions rather than simply be rewarded for virtuous behaviour and punished for bad
-	- More nuanced view of what childhood is, with values focused on emotional growth and self exploration
-
 
 ## **"Feminism and Children's Literature" by Jill P. May**
 - Jill discusses how women's roles in literature (such as in Little Women) reflects the societal constraints and expectations put unto them
