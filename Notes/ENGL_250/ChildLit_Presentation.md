@@ -1,4 +1,4 @@
-## **Where the wild things are**
+## **Where the wild things are** By Maurice Sendak
 - Independence
 - Imagination
 - Emotional Self Regulation
@@ -8,7 +8,7 @@
 - Demonstrates values in modern society highlighting the importance of acknowledging complex emotions/capability of independence in youth
 
 
-## **The Giving Tree**
+## **The Giving Tree** By Shel Silverstein
 - Selflessness
 - Sacrifice
 - Reciprocity
@@ -20,7 +20,7 @@
 - Showcases the importance of sharing a true meaningful connection
 
 
-## **The Sneetches**
+## **The Sneetches** By Dr. Seuss
 - Equality
 - Inclusion
 - Absurdity of Prejudice
@@ -31,7 +31,7 @@
 - Highlights absurdity of discrimination and encourages young readers to embrace diversity and inclusion
 
 
-## **Cinderella**
+## **Cinderella** By Charles Perrault
 - Traditional/Stereotypical Gender Norms
 - Class Disparity
 - Virtue and Vice
