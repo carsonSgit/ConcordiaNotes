@@ -1,3 +1,6 @@
+## Intro
+Now, I will be bridging into texts that were not assigned and the values they aim to teach children
+
 ## **Where the wild things are** By Maurice Sendak
 - Independence
 - Imagination
