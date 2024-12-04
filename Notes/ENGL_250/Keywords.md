@@ -214,3 +214,68 @@
 - Sublimation is the process of turning something unacceptable into something acceptable
   - Fear of death into enjoyment of fear
   - Disgust of Otherness into a monster
+
+## Hegemony
+
+- The "default setting" promoted to people as normal and beneath question
+  - The Ruling Ideas of the day
+- Not good, bad, anything like that, it just "is"
+- Trained by school, religion, law; but also upheld in everyday life
+- Expalied by Human Nature more than experience or evidence
+- States that things have always been the way they are
+  - When this is contested, we get uncomfortable, the "is" is broken
+
+## Bildungsroman
+
+- Coming of Age Novel
+  - German for "education" or "forming" and "novel"
+- Late 18th Century stories about the youngest child seeking their fortune
+- After suffering dangerous trials and disappointments, the protagonist returns home changed and helps others into maturity
+- Mirrors structure of the monomyth
+
+## Rhizome
+
+- From Gile Deleuze and Felix Guattari's *A Thousand Plateaus*
+- Unlike Arborescent thinking (meaning treelike), rhizomes are horizontal, non-hierarchal, unpredictable, hybridized
+- Rejects binary oppositions in favour of networks and associations
+  - Ideas connect in lattices not root systems
+- This is a very childlike
+- Refers to a kind of plant that spreads outwards
+
+
+## Cultural Appropriation
+
+- What C. Thi Nguyen and Matthew Stohl call "a breach in intimacy"
+  - Groups have identification practices they may choose to share with others on a basis of trust
+  - Vilating or presuming that trust is appropriation
+- James Young & Susan Haley refer to the assimilationist nature 
+- Appropriate is taking without giving
+  - Is playing C&C appropriate as a non Indigenous person
+    - No, we are appreciting
+
+## Affordances
+
+- A term from videogame studies
+  - Formal affordances = action required by the plot
+  - Material affordances = actions available to playrs
+- In RPGS, affordances are socially agreed upon by the Players
+- "We are now ready to propose a prescriptive structural model for agency. Players will experience agency when there is a balance between the material and formal constraints. When the actions are motivated by the formal constraints (affordances) via dramatic probability in the plot are commensurate with the material constraints (affordances) made available form the levels of spectacle, pattern, language, and thought, then players will experience agency. An imbalance results in a decrease in agency.
+
+
+## Bricolage
+
+- Building out of existing material
+- In cultural anthropology, myths are built only out of what already exists
+  - Claude Levi-Strauss
+- Every cultural object is a building block that can be used in other cultural objects
+  - Epistemological Project
+  - Everything becomes a block that can be used in building something else
+
+
+## Mary Sue
+
+- A derogatory accusation levelled at a character, usually in fanfiction
+  - Refers to a character with no faults and which the author is accuessed of using as a flattering portrayal of themselves or their presumed reader
+- Typically teenage girl protagonists
+- May also refer to any character with "too many" positive traits
+- Paula Smith later expounded on the term: it refers to an original character whose wish-fulfilling characteristics disrupt the dynamic of the characters
