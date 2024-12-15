@@ -2,7 +2,7 @@
 
 - COLE Proctored
   - Download Extension
-- 800-1200 word essay per question???????????
+- 600-800 word essay per question???????????
   - Importance on how we answer the question/what we are saying
     - No real "right answer", argue your opinion
 - Double sided cheat sheet allowed

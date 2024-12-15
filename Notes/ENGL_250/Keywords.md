@@ -261,17 +261,6 @@
 - In RPGS, affordances are socially agreed upon by the Players
 - "We are now ready to propose a prescriptive structural model for agency. Players will experience agency when there is a balance between the material and formal constraints. When the actions are motivated by the formal constraints (affordances) via dramatic probability in the plot are commensurate with the material constraints (affordances) made available form the levels of spectacle, pattern, language, and thought, then players will experience agency. An imbalance results in a decrease in agency.
 
-
-## Bricolage
-
-- Building out of existing material
-- In cultural anthropology, myths are built only out of what already exists
-  - Claude Levi-Strauss
-- Every cultural object is a building block that can be used in other cultural objects
-  - Epistemological Project
-  - Everything becomes a block that can be used in building something else
-
-
 ## Mary Sue
 
 - A derogatory accusation levelled at a character, usually in fanfiction
