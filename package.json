@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/carsonSgit/ConcordiaNotes#readme",
   "dependencies": {
+    "@primer/octicons-react": "^19.14.0",
     "gatsby": "^5.14.1",
     "gatsby-plugin-sharp": "^5.13.1",
     "gatsby-plugin-styled-components": "^6.13.1",
