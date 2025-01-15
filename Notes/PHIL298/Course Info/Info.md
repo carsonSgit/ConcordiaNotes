@@ -30,3 +30,7 @@
 **Unit 5: Wellbeing from Historically Marginalized Perspectives**
 
 **Unit 6: Hard Choices & The Politics of Wellbeing**
+
+### Midterm
+
+*If you go to Ethics Lecture on January 31st*, a Midterm question will be based on the lecture.
