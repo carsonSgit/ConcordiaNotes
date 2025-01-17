@@ -13,6 +13,7 @@
     - Due before scheduled class (due *before* 2:45PM)
     - 100-200 Words in paragraph form
     - Graded Pass/Fail
+    - Summarize in your own words
 - Split into units
     - Units 1 & 2 = Midterm
     - Units 3, 4, 5, & 6 = Final Exam
