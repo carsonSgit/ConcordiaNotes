@@ -68,7 +68,7 @@ You can improve this response and "switch" system through Cognitive Behaviour Th
 
 HPA Axis = "thermostat" for the body's stress response.
 
-Creates the "Fight or Flight" response which was crucial for primitive survival.
+Creates the "Fight or Flight" response which was crucial for primitive survival (**Amygdala**)
 
 Controllable through: breathing, thoughts, lifestyle, etc.
 
@@ -193,6 +193,7 @@ Means there is a significant risk of other health complications.
 - Metabolic dysfunction
 - Carcinogenic
 
--- SDL: Look at slide "A fwe other terms to familiarize yourself with"
+-- Self directed learning: Look at slide "A fwe other terms to familiarize yourself with"
+-- Self directed learning: Hierarchy of Research Evidence 
 
--- DONE AT SLIDE 22
+
