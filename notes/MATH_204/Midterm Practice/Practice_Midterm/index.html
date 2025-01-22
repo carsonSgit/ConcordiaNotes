@@ -1,0 +1,296 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><meta name="generator" content="Gatsby 5.13.7"/><style data-styled="" data-styled-version="6.1.13">body{background-color:#ecf0f1;color:#34495e;transition:background-color 0.3s ease,color 0.3s ease;}/*!sc*/
+data-styled.g1[id="sc-global-ciROhR1"]{content:"sc-global-ciROhR1,"}/*!sc*/
+.begLqc{padding:2rem;font-family:Arial,sans-serif;}/*!sc*/
+data-styled.g11[id="noteTemplate__Container-sc-i9uzr6-0"]{content:"begLqc,"}/*!sc*/
+.fbVKSv{color:#264653;margin-bottom:1rem;}/*!sc*/
+data-styled.g12[id="noteTemplate__Title-sc-i9uzr6-1"]{content:"fbVKSv,"}/*!sc*/
+.gzQqXz{font-size:1rem;line-height:1.5;color:#34495e;}/*!sc*/
+.gzQqXz a{color:#1f756a;}/*!sc*/
+.gzQqXz a:hover{color:#195d54;}/*!sc*/
+.gzQqXz h2,.gzQqXz h3,.gzQqXz h4,.gzQqXz h5,.gzQqXz h6{color:#2a9d8f;}/*!sc*/
+.gzQqXz p{margin-bottom:1rem;}/*!sc*/
+data-styled.g13[id="noteTemplate__Content-sc-i9uzr6-2"]{content:"gzQqXz,"}/*!sc*/
+.gCszeY{font-size:1em;padding:0.5em 0.8em;border:2px solid #fff;border-radius:8px;background-color:#1f756a;color:#fff;transition:background-color 0.3s;}/*!sc*/
+.gCszeY:hover{cursor:pointer;background-color:#195d54;}/*!sc*/
+data-styled.g14[id="noteTemplate__BackButton-sc-i9uzr6-3"]{content:"gCszeY,"}/*!sc*/
+</style></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="noteTemplate__Container-sc-i9uzr6-0 begLqc"><button class="noteTemplate__BackButton-sc-i9uzr6-3 gCszeY">←</button><h1 class="noteTemplate__Title-sc-i9uzr6-1 fbVKSv"></h1><div class="noteTemplate__Content-sc-i9uzr6-2 gzQqXz"><h1>Q1</h1>
+<pre><code># Initial matrix
+
+ 1 -3  2 -1  2 | 2
+ 3 -9  7 -1  3 | 7
+ 2 -6  7  4 -5 | 7
+
+# Step 1
+
+R2 - 3R1
+
+ R2: 3 -9 7 -1 3 | 7
+3R1: 3 -9 6 -3 6 | 6
+
+NR2: 0 0 1 2 3 | 1
+
+ 1 -3  2 -1  2 | 2
+ 0  0  1  2 -3 | 1
+ 0  0  3  6 -9 | 3
+
+# Step 2
+
+R3 - 2R1
+
+ R3: 2 -6 7  4 -5 | 7
+2R1: 2 -6 4 -2  4 | 4
+
+0 0 3 6 -9 | 3
+
+ 1 -3  2 -1  2 | 2
+ 0  0  1  2 -3 | 1
+ 0  0  0  0 -18| 0
+
+# Step 3
+
+R3 - 3R2
+
+0 0 3 6 -9 | 3
+0 0 3 6  9 | 3
+
+0 0 0 0 -18 | 0
+
+ 1 -3  0 -5  8 | 2
+ 0  0  1  2 -3 | 1
+ 0  0  0  0  0 | 0
+
+# Step 4
+
+R1 - 2R2
+
+ 1 -3  2 -1  2 | 2
+ 0  0  2  4 -6 | 2
+ 0  0  0  0  0 | 0
+
+ 1 -3  0 -5  8 | 0
+
+# Step 5
+
+x -3y - 5s + 8t = 0
+z + 2s - 3t = 1
+
+# Step 6
+
+x = 3y + 5s - 8t
+z = 1 - 2s + 3t
+</code></pre>
+<h1>Q3</h1>
+<pre><code>(6A -4I)^-1 = 
+3 7
+2 5
+
+inverse of 
+3 7
+2 5
+
+1/ad-bc * inverse matrix
+
+1 * 
+ d -b
+-c  a
+
+ 5 -7
+-2  3
+
+6A = matrix + 4I
+
+ 5 -7 + 4 0
+-2  3   0 4
+
+ 9 -7
+-2  7
+
+/ 6
+
+a = 
+
+ 3/2  -7/6
+-1/3   7/6
+</code></pre>
+<h1>Q4</h1>
+<pre><code># inverse of a 3x3 matrix => A^-1 = (adjA)/(detA)
+
+# to get the adjoint, get the cofactor matrix and transpose it
+
+# to get the cofactor matrix, get the determinant of each submatrix
+
+1 -2 2
+2 -3 6
+1  1 7
+
+m11
+-3 6
+ 1 7
+
+-21 - 6 = -27
+
+m12
+ 2 6
+ 1 7
+
+14 - 6 = 8
+
+m13
+ 2 -3
+ 1  1
+
+2 + 3 = 5
+
+m21 
+ -2 2
+  1 7
+
+-14 - 2 = -16
+
+m22 
+ 1 2
+ 1 7
+
+7 - 2 = 5
+
+m23 
+ 1 -2
+ 1  1
+
+1 + 2 = 3
+
+m31 
+ -2 2
+ -3 6
+
+-12 + 6 = -6
+
+m32 
+ 1 2
+ 2 6
+
+6 - 4 = 2
+
+m33 
+ 1 -2
+ 2 -3
+
+-3 + 4 = 1
+
+Cofactor matrix
+
+-27 8 5
+-16 5 3
+ -6 2 1
+
+# transposing... (flip rows to become columns, flip signs in checkerboard pattern)
+
+27 -16  6
+ 8  -5  2
+-5   3 -1
+
+# get the determinant of the matrix A 
+
+1(-27) + -2(-8) + 2(5) = 
+-27 + 16 + 10 = -1
+
+# inverse = adjA / detA
+# adjA / -1
+
+-27 16 -6
+ -8  5 -2
+  5 -3  1
+</code></pre>
+<h1>Q5</h1>
+<pre><code># Find the determinant of matrix A
+
+1  2  2  3 
+1  0 -2  0
+3 -1  1 -2
+4 -3  0  2
+
+# formula is A11 * CofactorA11 - A21 * CofactorA21 + A31 * CofactorA31 - A41 * CofactorA41
+
+# element 1
+
+1 * -16
+ 0 -2  0
+-1  1 -2
+-3  0  2
+
+0 * cofactor1 - -2(-8) + 0 * cofactor3
+= -16
+
+# element 2
+
+2 * 30
+ 1 -2  0
+ 3  1 -2
+ 4  0  2
+
+1 * 2 - -2(14) + 0
+
+2 + 28 = 30
+
+= 60
+
+# element 3
+
+2 * -8
+1  0  0
+3 -1 -2
+4 -3  2
+
+1 * (-8) 
+
+= -16
+
+# element 4
+
+3 * 13
+ 1  0 -2
+ 3 -1  1
+ 4 -3  0
+
+1 * 3 - 0 + 10
+3 + 10 = 13
+
+= 39
+
+-16 - 60 + -16 - 39 = -131
+</code></pre>
+<h1>Q6 (NOT DONE)</h1>
+<pre><code>a1(u1) + a2(u2) + a3(u3) = V
+
+V = (2, -5, 3)
+
+u1 = (1, -3, 2)
+u2 = (2, -4, -1)
+u3 = (1, -5, 7)
+
+</code></pre>
+<h1>Extra Problems</h1>
+<h2>Find a Cubic Polynomial (NOT DONE, STEPS WRITTEN)</h2>
+<pre><code>P(x) = ax^3 + bx^2 + cx + d 
+
+# solve so that..
+
+P(-1) = 0, P(1) = 4, P(2) = 3, P(3) = 16
+
+# meaning these must hold true
+
+a(-1)^3 + b(-1)^2 + c(-1) + d = 0
+a(1)^3 + b(1)^2 + c(1) + d = 4
+a(2)^3 + b(2)^2 + c(2) + d = 3
+a(3)^3 + b(3)^2 + c(3) + d = 16
+
+# simplify to a linear system (create a matrix)
+
+
+</code></pre></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/notes/MATH_204/Midterm Practice/Practice_Midterm/";/*]]>*/</script><!-- slice-start id="_gatsby-scripts-1" -->
+          <script
+            id="gatsby-chunk-mapping"
+          >
+            window.___chunkMapping="{\"app\":[\"/app-15cdc14c91aff9b24428.js\"],\"component---src-pages-index-js\":[\"/component---src-pages-index-js-2d23a026c27ee6948267.js\"],\"component---src-templates-note-template-js\":[\"/component---src-templates-note-template-js-133c79a6fc40aa097969.js\"]}";
+          </script>
+        <script>window.___webpackCompilationHash="d7d73ddab00addd937c8";</script><script src="/ConcordiaNotes/webpack-runtime-94acd9e7db738ead0433.js" async></script><script src="/ConcordiaNotes/framework-df30af87c4b63002e272.js" async></script><script src="/ConcordiaNotes/app-15cdc14c91aff9b24428.js" async></script><!-- slice-end id="_gatsby-scripts-1" --></body></html>
