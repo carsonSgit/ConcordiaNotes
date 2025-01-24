@@ -30,10 +30,10 @@ Hedonism therefore doesn't fit as a view of happiness.
 **The Problem of Reduction:**
 
 1. If there are aspects of happiness besides pleasure that don't reduce to pleasure, then hedonism is not the correct view of happiness
-2. There seems to be more to happiness than pleasure - plasubily, a positive emotional state and/or satisfaction with one's life
+2. There seems to be more to happiness than pleasure - plausibly, a positive emotional state and/or satisfaction with one's life
 3. Neither a positive emotional state nor life satisfaction can be reduced to pleasure
 4. Therefore, hedonism is not the correct view of happiness
 
 **Haybron's Diagnosis:**
 
-Hedonism boils down happiness to a series of conscious experiences, but this is too superficial to capture happiness - happiness goes deeper than hedonism allows for (pleasure is just the tip of the iceberg)
+Hedonism boils down happiness to a series of conscious experiences, but this is too superficial to capture happiness - happiness goes deeper than hedonism allows for (pleasure is just the tip of the iceberg).
