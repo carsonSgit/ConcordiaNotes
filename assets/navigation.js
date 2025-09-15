@@ -1,18 +1,18 @@
 // Theme Management
+const THEME_CLASSES = [
+  'theme-modern', 'theme-retro', 'theme-terminal', 'theme-basic', 
+  'theme-academic', 'theme-dark', 'theme-cursor', 'theme-claude', 
+  'theme-notion', 'theme-apple', 'theme-github', 'theme-vercel', 
+  'theme-openai', 'theme-linear'
+];
+
 function changeTheme(theme) {
   const body = document.body;
-  
-  // Remove all theme classes
-  body.classList.remove('theme-modern', 'theme-retro', 'theme-terminal', 'theme-basic', 'theme-academic', 'theme-dark');
-  
-  // Add selected theme class
+  body.classList.remove(...THEME_CLASSES);
   body.classList.add(`theme-${theme}`);
-  
-  // Save theme preference
   localStorage.setItem('preferred-theme', theme);
 }
 
-// Load saved theme on page load
 function loadTheme() {
   const savedTheme = localStorage.getItem('preferred-theme') || 'modern';
   const themeSelect = document.getElementById('theme-select');
@@ -23,7 +23,6 @@ function loadTheme() {
   }
 }
 
-// Sidebar Toggle
 function toggleSidebar() {
   const sidebar = document.getElementById('sidebar');
   if (sidebar) {
@@ -31,28 +30,28 @@ function toggleSidebar() {
   }
 }
 
-// Close sidebar when clicking outside (mobile)
 function setupSidebarClose() {
   document.addEventListener('click', function(event) {
+    const target = event.target;
     const sidebar = document.getElementById('sidebar');
     const toggleButtons = document.querySelectorAll('.mobile-menu-toggle, .sidebar-toggle');
     
     if (window.innerWidth <= 768 && sidebar && sidebar.classList.contains('open')) {
       let clickedToggle = false;
-      toggleButtons.forEach(button => {
-        if (button.contains(event.target)) {
+      
+      toggleButtons.forEach(function(button) {
+        if (button.contains(target)) {
           clickedToggle = true;
         }
       });
       
-      if (!sidebar.contains(event.target) && !clickedToggle) {
+      if (!sidebar.contains(target) && !clickedToggle) {
         sidebar.classList.remove('open');
       }
     }
   });
 }
 
-// Handle window resize
 function handleResize() {
   const sidebar = document.getElementById('sidebar');
   if (sidebar && window.innerWidth > 768) {
@@ -60,17 +59,49 @@ function handleResize() {
   }
 }
 
-// Initialize everything when DOM is loaded
-document.addEventListener('DOMContentLoaded', function() {
-  loadTheme();
-  setupSidebarClose();
+function setupSmoothScrolling() {
+  document.addEventListener('click', function(event) {
+    const target = event.target;
+    
+    if (target.tagName === 'A') {
+      const href = target.getAttribute('href');
+      
+      if (href && href.startsWith('#')) {
+        event.preventDefault();
+        const targetId = href.substring(1);
+        const targetElement = document.getElementById(targetId);
+        
+        if (targetElement) {
+          targetElement.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      }
+    }
+  });
+}
+
+function highlightCurrentNavigation() {
+  const currentPath = window.location.pathname;
+  const navDetails = document.querySelectorAll('.nav-details');
   
-  // Add resize listener
-  window.addEventListener('resize', handleResize);
-  
-  // Add keyboard navigation
+  navDetails.forEach(function(details) {
+    const links = details.querySelectorAll('a');
+    
+    links.forEach(function(link) {
+      const href = link.getAttribute('href');
+      if (href && currentPath.includes(href)) {
+        details.open = true;
+        link.style.fontWeight = 'bold';
+        link.style.color = '#007acc';
+      }
+    });
+  });
+}
+
+function setupKeyboardNavigation() {
   document.addEventListener('keydown', function(event) {
-    // Escape key closes sidebar on mobile
     if (event.key === 'Escape') {
       const sidebar = document.getElementById('sidebar');
       if (sidebar && sidebar.classList.contains('open')) {
@@ -78,35 +109,19 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     }
   });
-  
-  // Auto-expand current section in navigation
-  const currentPath = window.location.pathname;
-  const navDetails = document.querySelectorAll('.nav-details');
-  
-  navDetails.forEach(details => {
-    const links = details.querySelectorAll('a');
-    links.forEach(link => {
-      if (currentPath.includes(link.getAttribute('href'))) {
-        details.open = true;
-        link.style.fontWeight = 'bold';
-        link.style.color = '#007acc';
-      }
-    });
-  });
-});
+}
 
-// Add smooth scrolling for anchor links
-document.addEventListener('click', function(event) {
-  if (event.target.tagName === 'A' && event.target.getAttribute('href').startsWith('#')) {
-    event.preventDefault();
-    const targetId = event.target.getAttribute('href').substring(1);
-    const targetElement = document.getElementById(targetId);
-    
-    if (targetElement) {
-      targetElement.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start'
-      });
-    }
-  }
-});
+function initialize() {
+  loadTheme();
+  setupSidebarClose();
+  setupSmoothScrolling();
+  highlightCurrentNavigation();
+  setupKeyboardNavigation();
+  
+  window.addEventListener('resize', handleResize);
+}
+
+document.addEventListener('DOMContentLoaded', initialize);
+
+window.changeTheme = changeTheme;
+window.toggleSidebar = toggleSidebar;

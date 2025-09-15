@@ -1,4 +1,16 @@
-# Concordia Notes
-Notes taken for my courses at Concordia University.
+# Carson's notes
 
-Made a little website to display them for easier access, if you're interested in doing the same yourself, feel free to steal my code (all you have to do really is make your own files/folders in the `Notes` directory) or ask me for some help to set it up!
+Notes taken / course info from all the classes i've done post-secondary!
+
+> [!NOTE]
+> THIS IS A WIP, NOT FULLY BUILT YET & MISSING PAST NOTES
+
+**TODO:**
+
+- Add past notes as `.smd`
+- New GitHub workflow for deployment of `Zine` site
+- Remove `zine.exe` from repo
+- Rename repo
+- Link to from portfolio
+- More themes!
+- Auto-convert workflow from `.md` to `.smd`

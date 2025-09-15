@@ -1,9 +1,5 @@
 /* Theme System */
 
-/* Modern Theme (Default) */
-.theme-modern {
-  /* Already defined in main style.css */
-}
 
 /* Retro Theme */
 .theme-retro {
@@ -369,4 +365,673 @@
   background-color: #2d2d2d;
   color: #e0e0e0;
   border-color: #404040;
+}
+
+/* Cursor Theme */
+.theme-cursor {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.theme-cursor .layout-container {
+  background: linear-gradient(135deg, #0d1117 0%, #161b22 50%, #21262d 100%);
+}
+
+.theme-cursor .sidebar {
+  background-color: #161b22;
+  color: #e6edf3;
+  border-right: 1px solid #30363d;
+}
+
+.theme-cursor .sidebar-header,
+.theme-cursor .theme-selector {
+  border-bottom: 1px solid #30363d;
+}
+
+.theme-cursor .site-title-sidebar,
+.theme-cursor .nav-header {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.theme-cursor .nav-link {
+  color: #e6edf3;
+}
+
+.theme-cursor .nav-link:hover {
+  background-color: rgba(99, 102, 241, 0.1);
+  color: #6366f1;
+  border-left-color: #6366f1;
+}
+
+.theme-cursor .top-nav {
+  background-color: #161b22;
+  border-bottom: 1px solid #30363d;
+}
+
+.theme-cursor .page-title {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.theme-cursor .content-area {
+  background-color: #0d1117;
+  color: #e6edf3;
+  border: 1px solid #30363d;
+}
+
+.theme-cursor h1, .theme-cursor h2, .theme-cursor h3,
+.theme-cursor h4, .theme-cursor h5, .theme-cursor h6 {
+  color: #6366f1;
+}
+
+.theme-cursor a {
+  color: #8b5cf6;
+}
+
+.theme-cursor a:hover {
+  color: #a78bfa;
+}
+
+.theme-cursor pre,
+.theme-cursor code {
+  background-color: #161b22;
+  border-color: #30363d;
+  color: #e6edf3;
+}
+
+.theme-cursor .main-footer {
+  background-color: #161b22;
+  color: #e6edf3;
+}
+
+.theme-cursor .theme-selector select {
+  background-color: #161b22;
+  color: #e6edf3;
+  border-color: #30363d;
+}
+
+/* Claude Theme */
+.theme-claude {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.theme-claude .layout-container {
+  background-color: #fefbf7;
+}
+
+.theme-claude .sidebar {
+  background-color: #ffffff;
+  color: #2d1810;
+  border-right: 1px solid #f4e6d3;
+}
+
+.theme-claude .sidebar-header,
+.theme-claude .theme-selector {
+  border-bottom: 1px solid #f4e6d3;
+}
+
+.theme-claude .site-title-sidebar,
+.theme-claude .nav-header {
+  color: #2d1810;
+  font-weight: 700;
+}
+
+.theme-claude .nav-link {
+  color: #8b4513;
+}
+
+.theme-claude .nav-link:hover {
+  background-color: rgba(255, 107, 53, 0.1);
+  color: #ff6b35;
+  border-left-color: #ff6b35;
+}
+
+.theme-claude .top-nav {
+  background-color: #ffffff;
+  border-bottom: 1px solid #f4e6d3;
+}
+
+.theme-claude .page-title {
+  color: #2d1810;
+  font-weight: 700;
+}
+
+.theme-claude .content-area {
+  background-color: #fefbf7;
+  color: #2d1810;
+  border: 1px solid #f4e6d3;
+}
+
+.theme-claude h1, .theme-claude h2, .theme-claude h3,
+.theme-claude h4, .theme-claude h5, .theme-claude h6 {
+  color: #ff6b35;
+}
+
+.theme-claude a {
+  color: #f7931e;
+}
+
+.theme-claude a:hover {
+  color: #e8841b;
+}
+
+.theme-claude pre,
+.theme-claude code {
+  background-color: #ffffff;
+  border-color: #f4e6d3;
+  color: #2d1810;
+}
+
+.theme-claude .main-footer {
+  background-color: #ffffff;
+  color: #8b4513;
+}
+
+.theme-claude .theme-selector select {
+  background-color: #ffffff;
+  color: #2d1810;
+  border-color: #f4e6d3;
+}
+
+/* Notion Theme */
+.theme-notion {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.theme-notion .layout-container {
+  background-color: #ffffff;
+}
+
+.theme-notion .sidebar {
+  background-color: #f7f6f3;
+  color: #37352f;
+  border-right: 1px solid #e9e9e7;
+}
+
+.theme-notion .sidebar-header,
+.theme-notion .theme-selector {
+  border-bottom: 1px solid #e9e9e7;
+}
+
+.theme-notion .site-title-sidebar,
+.theme-notion .nav-header {
+  color: #37352f;
+  font-weight: 600;
+}
+
+.theme-notion .nav-link {
+  color: #37352f;
+}
+
+.theme-notion .nav-link:hover {
+  background-color: rgba(55, 53, 47, 0.08);
+  color: #37352f;
+  border-left-color: #37352f;
+}
+
+.theme-notion .top-nav {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e9e9e7;
+}
+
+.theme-notion .page-title {
+  color: #37352f;
+  font-weight: 700;
+}
+
+.theme-notion .content-area {
+  background-color: #ffffff;
+  color: #37352f;
+  border: 1px solid #e9e9e7;
+}
+
+.theme-notion h1, .theme-notion h2, .theme-notion h3,
+.theme-notion h4, .theme-notion h5, .theme-notion h6 {
+  color: #37352f;
+  font-weight: 700;
+}
+
+.theme-notion a {
+  color: #0f83c9;
+}
+
+.theme-notion a:hover {
+  color: #0969da;
+}
+
+.theme-notion pre,
+.theme-notion code {
+  background-color: #f7f6f3;
+  border-color: #e9e9e7;
+  color: #37352f;
+}
+
+.theme-notion .main-footer {
+  background-color: #f7f6f3;
+  color: #37352f;
+}
+
+.theme-notion .theme-selector select {
+  background-color: #ffffff;
+  color: #37352f;
+  border-color: #e9e9e7;
+}
+
+/* Apple Theme */
+.theme-apple {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", sans-serif;
+}
+
+.theme-apple .layout-container {
+  background-color: #f5f5f7;
+}
+
+.theme-apple .sidebar {
+  background-color: #ffffff;
+  color: #1d1d1f;
+  border-right: 1px solid #d2d2d7;
+}
+
+.theme-apple .sidebar-header,
+.theme-apple .theme-selector {
+  border-bottom: 1px solid #d2d2d7;
+}
+
+.theme-apple .site-title-sidebar,
+.theme-apple .nav-header {
+  color: #1d1d1f;
+  font-weight: 600;
+}
+
+.theme-apple .nav-link {
+  color: #424245;
+}
+
+.theme-apple .nav-link:hover {
+  background-color: rgba(0, 122, 255, 0.1);
+  color: #007aff;
+  border-left-color: #007aff;
+}
+
+.theme-apple .top-nav {
+  background-color: #ffffff;
+  border-bottom: 1px solid #d2d2d7;
+}
+
+.theme-apple .page-title {
+  color: #1d1d1f;
+  font-weight: 700;
+}
+
+.theme-apple .content-area {
+  background-color: #ffffff;
+  color: #1d1d1f;
+  border: 1px solid #d2d2d7;
+}
+
+.theme-apple h1, .theme-apple h2, .theme-apple h3,
+.theme-apple h4, .theme-apple h5, .theme-apple h6 {
+  color: #1d1d1f;
+  font-weight: 700;
+}
+
+.theme-apple a {
+  color: #007aff;
+}
+
+.theme-apple a:hover {
+  color: #0051d5;
+}
+
+.theme-apple pre,
+.theme-apple code {
+  background-color: #f5f5f7;
+  border-color: #d2d2d7;
+  color: #1d1d1f;
+}
+
+.theme-apple .main-footer {
+  background-color: #f5f5f7;
+  color: #424245;
+}
+
+.theme-apple .theme-selector select {
+  background-color: #ffffff;
+  color: #1d1d1f;
+  border-color: #d2d2d7;
+}
+
+/* GitHub Theme */
+.theme-github {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
+}
+
+.theme-github .layout-container {
+  background-color: #ffffff;
+}
+
+.theme-github .sidebar {
+  background-color: #f6f8fa;
+  color: #24292f;
+  border-right: 1px solid #d0d7de;
+}
+
+.theme-github .sidebar-header,
+.theme-github .theme-selector {
+  border-bottom: 1px solid #d0d7de;
+}
+
+.theme-github .site-title-sidebar,
+.theme-github .nav-header {
+  color: #24292f;
+  font-weight: 600;
+}
+
+.theme-github .nav-link {
+  color: #656d76;
+}
+
+.theme-github .nav-link:hover {
+  background-color: rgba(208, 215, 222, 0.32);
+  color: #24292f;
+  border-left-color: #0969da;
+}
+
+.theme-github .top-nav {
+  background-color: #ffffff;
+  border-bottom: 1px solid #d0d7de;
+}
+
+.theme-github .page-title {
+  color: #24292f;
+  font-weight: 600;
+}
+
+.theme-github .content-area {
+  background-color: #ffffff;
+  color: #24292f;
+  border: 1px solid #d0d7de;
+}
+
+.theme-github h1, .theme-github h2, .theme-github h3,
+.theme-github h4, .theme-github h5, .theme-github h6 {
+  color: #24292f;
+  font-weight: 600;
+}
+
+.theme-github a {
+  color: #0969da;
+}
+
+.theme-github a:hover {
+  color: #0550ae;
+}
+
+.theme-github pre,
+.theme-github code {
+  background-color: #f6f8fa;
+  border-color: #d0d7de;
+  color: #24292f;
+}
+
+.theme-github .main-footer {
+  background-color: #f6f8fa;
+  color: #656d76;
+}
+
+.theme-github .theme-selector select {
+  background-color: #ffffff;
+  color: #24292f;
+  border-color: #d0d7de;
+}
+
+/* Vercel Theme */
+.theme-vercel {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.theme-vercel .layout-container {
+  background-color: #000000;
+}
+
+.theme-vercel .sidebar {
+  background-color: #000000;
+  color: #ffffff;
+  border-right: 1px solid #333333;
+}
+
+.theme-vercel .sidebar-header,
+.theme-vercel .theme-selector {
+  border-bottom: 1px solid #333333;
+}
+
+.theme-vercel .site-title-sidebar,
+.theme-vercel .nav-header {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.theme-vercel .nav-link {
+  color: #888888;
+}
+
+.theme-vercel .nav-link:hover {
+  background-color: #111111;
+  color: #ffffff;
+  border-left-color: #ffffff;
+}
+
+.theme-vercel .top-nav {
+  background-color: #000000;
+  border-bottom: 1px solid #333333;
+}
+
+.theme-vercel .page-title {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.theme-vercel .content-area {
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid #333333;
+}
+
+.theme-vercel h1, .theme-vercel h2, .theme-vercel h3,
+.theme-vercel h4, .theme-vercel h5, .theme-vercel h6 {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.theme-vercel a {
+  color: #0070f3;
+}
+
+.theme-vercel a:hover {
+  color: #3291ff;
+}
+
+.theme-vercel pre,
+.theme-vercel code {
+  background-color: #111111;
+  border-color: #333333;
+  color: #ffffff;
+}
+
+.theme-vercel .main-footer {
+  background-color: #000000;
+  color: #888888;
+}
+
+.theme-vercel .theme-selector select {
+  background-color: #000000;
+  color: #ffffff;
+  border-color: #333333;
+}
+
+/* OpenAI Theme */
+.theme-openai {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.theme-openai .layout-container {
+  background-color: #f7f7f8;
+}
+
+.theme-openai .sidebar {
+  background-color: #ffffff;
+  color: #2d333a;
+  border-right: 1px solid #e5e7eb;
+}
+
+.theme-openai .sidebar-header,
+.theme-openai .theme-selector {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.theme-openai .site-title-sidebar,
+.theme-openai .nav-header {
+  color: #2d333a;
+  font-weight: 600;
+}
+
+.theme-openai .nav-link {
+  color: #6b7280;
+}
+
+.theme-openai .nav-link:hover {
+  background-color: rgba(16, 163, 127, 0.1);
+  color: #10a37f;
+  border-left-color: #10a37f;
+}
+
+.theme-openai .top-nav {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.theme-openai .page-title {
+  color: #2d333a;
+  font-weight: 700;
+}
+
+.theme-openai .content-area {
+  background-color: #ffffff;
+  color: #2d333a;
+  border: 1px solid #e5e7eb;
+}
+
+.theme-openai h1, .theme-openai h2, .theme-openai h3,
+.theme-openai h4, .theme-openai h5, .theme-openai h6 {
+  color: #10a37f;
+}
+
+.theme-openai a {
+  color: #19c37d;
+}
+
+.theme-openai a:hover {
+  color: #10a37f;
+}
+
+.theme-openai pre,
+.theme-openai code {
+  background-color: #f7f7f8;
+  border-color: #e5e7eb;
+  color: #2d333a;
+}
+
+.theme-openai .main-footer {
+  background-color: #f7f7f8;
+  color: #6b7280;
+}
+
+.theme-openai .theme-selector select {
+  background-color: #ffffff;
+  color: #2d333a;
+  border-color: #e5e7eb;
+}
+
+/* Linear Theme */
+.theme-linear {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.theme-linear .layout-container {
+  background-color: #fcfcfd;
+}
+
+.theme-linear .sidebar {
+  background-color: #ffffff;
+  color: #3c4149;
+  border-right: 1px solid #eceef2;
+}
+
+.theme-linear .sidebar-header,
+.theme-linear .theme-selector {
+  border-bottom: 1px solid #eceef2;
+}
+
+.theme-linear .site-title-sidebar,
+.theme-linear .nav-header {
+  color: #3c4149;
+  font-weight: 600;
+}
+
+.theme-linear .nav-link {
+  color: #6c7381;
+}
+
+.theme-linear .nav-link:hover {
+  background-color: rgba(94, 106, 210, 0.1);
+  color: #5e6ad2;
+  border-left-color: #5e6ad2;
+}
+
+.theme-linear .top-nav {
+  background-color: #ffffff;
+  border-bottom: 1px solid #eceef2;
+}
+
+.theme-linear .page-title {
+  color: #3c4149;
+  font-weight: 700;
+}
+
+.theme-linear .content-area {
+  background-color: #ffffff;
+  color: #3c4149;
+  border: 1px solid #eceef2;
+}
+
+.theme-linear h1, .theme-linear h2, .theme-linear h3,
+.theme-linear h4, .theme-linear h5, .theme-linear h6 {
+  color: #5e6ad2;
+  font-weight: 700;
+}
+
+.theme-linear a {
+  color: #5e6ad2;
+}
+
+.theme-linear a:hover {
+  color: #4c63d2;
+}
+
+.theme-linear pre,
+.theme-linear code {
+  background-color: #fcfcfd;
+  border-color: #eceef2;
+  color: #3c4149;
+}
+
+.theme-linear .main-footer {
+  background-color: #fcfcfd;
+  color: #6c7381;
+}
+
+.theme-linear .theme-selector select {
+  background-color: #ffffff;
+  color: #3c4149;
+  border-color: #eceef2;
 }
