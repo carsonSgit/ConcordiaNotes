@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1">
+    <title :text="$page.title"></title>
+    <link type="text/css" rel="stylesheet" href="$site.asset('style.css').link()">
+    <link type="text/css" rel="stylesheet" href="$site.asset('themes.css').link()">
+    <link type="text/css" rel="stylesheet" href="$site.asset('highlight.css').link()">
+    <style>
+      .date {
+        font-size: 0.9em;
+      }
+      
+      .title h3{
+        margin-top: 0;
+      }
+    </style>
+  </head>
+  <body id="body" class="theme-modern">
+    <h1 :text="$page.title"></h1>
+    <div :html="$page.content()"></div>
+    <div>
+      <h2>Post list</h2>
+      <div :loop="$page.subpages()">
+        <span class="date" :text="$loop.it.date.format('January 02, 2006')"></span>
+        <a class="title" href="$loop.it.link()">
+          <h3 :text="$loop.it.title"></h3>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

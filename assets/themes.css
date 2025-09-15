@@ -1,0 +1,372 @@
+/* Theme System */
+
+/* Modern Theme (Default) */
+.theme-modern {
+  /* Already defined in main style.css */
+}
+
+/* Retro Theme */
+.theme-retro {
+  font-family: 'Courier New', monospace;
+}
+
+.theme-retro .layout-container {
+  background-color: #f4f1de;
+}
+
+.theme-retro .sidebar {
+  background-color: #e07a5f;
+  color: #3d405b;
+  border-right-color: #81b29a;
+}
+
+.theme-retro .sidebar-header,
+.theme-retro .theme-selector {
+  border-bottom-color: #81b29a;
+}
+
+.theme-retro .site-title-sidebar,
+.theme-retro .nav-header {
+  color: #3d405b;
+}
+
+.theme-retro .nav-link {
+  color: #3d405b;
+}
+
+.theme-retro .nav-link:hover {
+  background-color: #81b29a;
+  color: #f4f1de;
+  border-left-color: #f4f1de;
+}
+
+.theme-retro .top-nav {
+  background-color: #e07a5f;
+  border-bottom-color: #81b29a;
+}
+
+.theme-retro .page-title {
+  color: #3d405b;
+}
+
+.theme-retro .content-area {
+  background-color: #f4f1de;
+  color: #3d405b;
+}
+
+.theme-retro h1, .theme-retro h2, .theme-retro h3, 
+.theme-retro h4, .theme-retro h5, .theme-retro h6 {
+  color: #e07a5f;
+}
+
+.theme-retro a {
+  color: #e07a5f;
+}
+
+.theme-retro a:hover {
+  color: #3d405b;
+}
+
+/* Terminal Theme */
+.theme-terminal {
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+  background-color: #000;
+  color: #00ff00;
+}
+
+.theme-terminal .layout-container {
+  background-color: #000;
+}
+
+.theme-terminal .sidebar {
+  background-color: #111;
+  color: #00ff00;
+  border-right-color: #333;
+}
+
+.theme-terminal .sidebar-header,
+.theme-terminal .theme-selector {
+  border-bottom-color: #333;
+}
+
+.theme-terminal .site-title-sidebar,
+.theme-terminal .nav-header {
+  color: #00ff00;
+}
+
+.theme-terminal .nav-link {
+  color: #00ff00;
+}
+
+.theme-terminal .nav-link:hover {
+  background-color: #333;
+  color: #ffffff;
+  border-left-color: #00ff00;
+}
+
+.theme-terminal .top-nav {
+  background-color: #111;
+  border-bottom-color: #333;
+}
+
+.theme-terminal .page-title {
+  color: #00ff00;
+}
+
+.theme-terminal .content-area {
+  background-color: #000;
+  color: #00ff00;
+}
+
+.theme-terminal h1, .theme-terminal h2, .theme-terminal h3,
+.theme-terminal h4, .theme-terminal h5, .theme-terminal h6 {
+  color: #ffffff;
+}
+
+.theme-terminal a {
+  color: #00ffff;
+}
+
+.theme-terminal a:hover {
+  color: #ffffff;
+}
+
+.theme-terminal pre,
+.theme-terminal code {
+  background-color: #111;
+  border-color: #333;
+  color: #00ff00;
+}
+
+.theme-terminal .main-footer {
+  background-color: #111;
+  color: #00ff00;
+}
+
+/* Basic Text Theme */
+.theme-basic {
+  font-family: 'Times New Roman', serif;
+}
+
+.theme-basic .layout-container {
+  background-color: #fff;
+}
+
+.theme-basic .sidebar {
+  background-color: #f9f9f9;
+  color: #000;
+  border-right-color: #ddd;
+}
+
+.theme-basic .sidebar-header,
+.theme-basic .theme-selector {
+  border-bottom-color: #ddd;
+}
+
+.theme-basic .site-title-sidebar,
+.theme-basic .nav-header {
+  color: #000;
+}
+
+.theme-basic .nav-link {
+  color: #000;
+}
+
+.theme-basic .nav-link:hover {
+  background-color: #eee;
+  color: #000;
+  border-left-color: #000;
+}
+
+.theme-basic .top-nav {
+  background-color: #f9f9f9;
+  border-bottom-color: #ddd;
+}
+
+.theme-basic .page-title {
+  color: #000;
+}
+
+.theme-basic .content-area {
+  background-color: #fff;
+  color: #000;
+  box-shadow: none;
+  border: 1px solid #ddd;
+}
+
+.theme-basic h1, .theme-basic h2, .theme-basic h3,
+.theme-basic h4, .theme-basic h5, .theme-basic h6 {
+  color: #000;
+  font-weight: bold;
+}
+
+.theme-basic a {
+  color: #0000ee;
+  text-decoration: underline;
+}
+
+.theme-basic a:hover {
+  color: #551a8b;
+}
+
+.theme-basic pre,
+.theme-basic code {
+  background-color: #f5f5f5;
+  border-color: #ddd;
+  color: #000;
+}
+
+/* Academic Theme */
+.theme-academic {
+  font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+.theme-academic .layout-container {
+  background-color: #fefefe;
+}
+
+.theme-academic .sidebar {
+  background-color: #f8f8f8;
+  color: #2c3e50;
+  border-right-color: #bdc3c7;
+}
+
+.theme-academic .sidebar-header,
+.theme-academic .theme-selector {
+  border-bottom-color: #bdc3c7;
+}
+
+.theme-academic .site-title-sidebar,
+.theme-academic .nav-header {
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.theme-academic .nav-link {
+  color: #34495e;
+}
+
+.theme-academic .nav-link:hover {
+  background-color: #ecf0f1;
+  color: #2980b9;
+  border-left-color: #2980b9;
+}
+
+.theme-academic .top-nav {
+  background-color: #f8f8f8;
+  border-bottom-color: #bdc3c7;
+}
+
+.theme-academic .page-title {
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.theme-academic .content-area {
+  background-color: #fefefe;
+  color: #2c3e50;
+  line-height: 1.8;
+}
+
+.theme-academic h1, .theme-academic h2, .theme-academic h3,
+.theme-academic h4, .theme-academic h5, .theme-academic h6 {
+  color: #2c3e50;
+  font-weight: bold;
+  margin-top: 2em;
+  margin-bottom: 0.8em;
+}
+
+.theme-academic a {
+  color: #2980b9;
+}
+
+.theme-academic a:hover {
+  color: #3498db;
+}
+
+.theme-academic pre,
+.theme-academic code {
+  background-color: #f8f8f8;
+  border-color: #bdc3c7;
+  color: #2c3e50;
+}
+
+/* Dark Mode Theme */
+.theme-dark {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.theme-dark .layout-container {
+  background-color: #1a1a1a;
+}
+
+.theme-dark .sidebar {
+  background-color: #2d2d2d;
+  color: #e0e0e0;
+  border-right-color: #404040;
+}
+
+.theme-dark .sidebar-header,
+.theme-dark .theme-selector {
+  border-bottom-color: #404040;
+}
+
+.theme-dark .site-title-sidebar,
+.theme-dark .nav-header {
+  color: #ffffff;
+}
+
+.theme-dark .nav-link {
+  color: #e0e0e0;
+}
+
+.theme-dark .nav-link:hover {
+  background-color: #404040;
+  color: #64b5f6;
+  border-left-color: #64b5f6;
+}
+
+.theme-dark .top-nav {
+  background-color: #2d2d2d;
+  border-bottom-color: #404040;
+}
+
+.theme-dark .page-title {
+  color: #ffffff;
+}
+
+.theme-dark .content-area {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+
+.theme-dark h1, .theme-dark h2, .theme-dark h3,
+.theme-dark h4, .theme-dark h5, .theme-dark h6 {
+  color: #ffffff;
+}
+
+.theme-dark a {
+  color: #64b5f6;
+}
+
+.theme-dark a:hover {
+  color: #90caf9;
+}
+
+.theme-dark pre,
+.theme-dark code {
+  background-color: #2d2d2d;
+  border-color: #404040;
+  color: #e0e0e0;
+}
+
+.theme-dark .main-footer {
+  background-color: #2d2d2d;
+  color: #e0e0e0;
+}
+
+.theme-dark .theme-selector select {
+  background-color: #2d2d2d;
+  color: #e0e0e0;
+  border-color: #404040;
+}

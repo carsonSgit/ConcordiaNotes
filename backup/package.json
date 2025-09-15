@@ -1,0 +1,35 @@
+{
+  "name": "concordianotes",
+  "version": "1.0.0",
+  "description": "Notes taken for my courses at Concordia University.",
+  "main": "index.js",
+  "scripts": {
+    "build": "gatsby build --prefix-paths",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b gh-pages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carsonSgit/ConcordiaNotes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carsonSgit/ConcordiaNotes/issues"
+  },
+  "homepage": "https://github.com/carsonSgit/ConcordiaNotes#readme",
+  "dependencies": {
+    "@primer/octicons-react": "^19.14.0",
+    "gatsby": "^5.14.1",
+    "gatsby-plugin-sharp": "^5.13.1",
+    "gatsby-plugin-styled-components": "^6.13.1",
+    "gatsby-source-filesystem": "^5.13.1",
+    "gatsby-transformer-remark": "^6.13.1",
+    "gatsby-transformer-sharp": "^5.13.1",
+    "gh-pages": "^6.2.0",
+    "lodash": "^4.17.21",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "styled-components": "^6.1.13"
+  }
+}

@@ -1,0 +1,33 @@
+---
+.title = "TECH4050 - Intro to Quality Management",
+.author = "carsonSgit",
+.description = "Course notes for TECH4050 - Introduction to Quality Management and Total Quality Management",
+.layout = "page.shtml",
+.date = @date("2025-09-15T00:00:00"),
+---
+
+## Course Information
+This course covers Total Quality Management (TQM), quality control systems, and organizational excellence principles.
+
+## Course Units
+
+### Unit 1: Chapter 1 - Introduction to Quality
+
+[Introduction to Quality Notes]($link.page("F25/TECH4050/Unit1"))
+- What is quality?
+- Quality, Value, and Organizational Excellence
+- Total Quality Approach
+- History of TQM
+- Total Quality Pioneers (Deming, Juran, Feigenbaum, Crosby)
+- Quality Certifications
+
+
+### Unit 2
+*To be added*
+
+### Unit 3
+*To be added*
+
+---
+
+*Course content updated throughout the semester.*

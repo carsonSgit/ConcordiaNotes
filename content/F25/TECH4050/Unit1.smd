@@ -1,0 +1,237 @@
+---
+.title = "Unit 1: Chapter 1",
+.author = "carsonSgit", 
+.description = "Introduction to Quality Management - What is quality, TQM history, and key pioneers",
+.layout = "page.shtml",
+.date = @date("2025-09-15T00:00:00"),
+---
+
+## What is quality?
+
+- Subjective
+- Affects purchasing decisions
+- Various methods of defining quality
+	- i.e. Meeting/exceeding expectations, striving to improve
+	- Edward Stemming: Quality is based on stakeholder opinion
+- Has no universal objective truth, it is ever-changing
+- Is a Dynamic State
+
+## Quality, Value, and Organizational Excellence
+
+- For success, organizations must have superior value that can be delivered to customers
+	- Quality, Cost, Service => Superior value
+- Total quality encompasses all three of these
+
+## Total Quality Approach
+
+- Customer is the primary focus made up of three components with quality in mind
+	- Measures
+	- People
+	- Processes 
+	
+## Quality and Competitive Advantage
+
+- Set of characteristics that allow an organization to outperform competitors
+	- Efficiency
+	- Innovation
+	- Responsiveness to customers
+	- Organizational Agility
+	- Quality
+
+## History of TQM
+
+- Born by Frederic Taylor in the 1920s
+- As volume & complexity grew, so did the focus on TQM 
+- SPC (Statistical Process Control) chart
+- TPS (Toyota Production System)
+- ISO 9000 (International Standard for Quality) was rewritten to incorporate TQM concepts
+- 2010 -> TQM/Lean/Six Sigma generally acknowledged as the standard quality management method of the 21st century
+
+## Total Quality Views
+
+**Traditional:** -> SHORT-TERM FOCUS
+- After-the fact inspection of products
+
+**Total Quality:** -> LONG-TERM FOCUS
+- Continual improvement of products, processes, and people to prevent the problems
+
+## Key Elements of Total Quality
+
+- Strategically Based
+- Customer Focus
+- Obsession with Quality
+- Scientific Approach
+- Long-term commitment
+- Teamwork
+- Continual Process Improvement
+- Education and Training
+- Freedom Through Control
+- Unity of purpose
+- Employee Involvement and Empowerment
+- Peak Performance
+
+## Total Quality Pioneers
+
+### Deming
+
+> Responsible for the Total Quality approach & pioneered use of statistics in quality (embraced by Japanese Industrialists after WW2, by 1980s he was embraced by USA)
+- The Deming Cycle
+	1. Plan
+	2. Do
+	3. Check
+	4. Act
+	5. Analyze
+- Deming's Fourteen Points
+	1. Create constancy of purpose toward the improvement of products and services in order to become competitive, stay in business, and provide jobs
+	2. Adopt the new philosophy. Management must learn that it is a new economic age and awaken to the challenge, learn their responsibilities, and take on leadership for change
+	3. Stop depending on inspection to achive quality. Build in quality from the start
+	4. Stop awarding contracts on the basis of low bids
+	5. Improve continuously and forever the system of production and service, to improve quality and productivity, and thus constantly reduce costs
+	6. Insitute training on the job
+	7. Institute leadership. The purpose of leadership should be to help people and technology work better
+	8. Drive out fear so that everyone may work effectively
+	9. Break down barriers between departments so that people can work as a team
+	10. Eliminate slogans, exhortations, and targets for the workforce. They create adversarial relationships
+	11. Eliminate quotas and management by objectives. Substitute leadership
+	12. Remove barriers that rob employees of their pride of workmanship
+	13. Institute a vigorous program of education and self-improvement
+	14. Make the transformation everyone's job and put everyone to work on it
+- Deming's Seven Deadly Diseases
+	1. Lack of constancy of purpose to plan products and services that have a market sufficient to keep the company in business and provide jobs
+	2. Emphasis on short-term profits; short-term thinking that is driven by a fear of unfriendly takeover attempts and pressure from bankers and shareholders to produce dividends
+	3. Personal review systems for managers/management by objectives without providing methods/resources to accomplish objectives. Performance evaluations, merit ratings, and annual appraisals are all part of this disease
+	4. Job hopping by managers
+	5. Using only visible data and information in decision making with little or no consideration given to what is not known or cannot be known
+	6. Excessive medical costs
+	7. Excessive costs of liability driven up by lawyers who work on contigency fees
+
+### Juran	
+> known for contributions to quality philosophy
+
+- Juran's Three Basic Steps to Progress
+	- Continual structured improvements
+	- Extensive training
+	- Higher management commitment and leadership
+- Juran's Ten Steps to Quality Improvement
+	1. Awareness
+	2. Improvement goals
+	3. Organization
+	4. Training
+	5. Problem-solving projects
+	6. Progress reports
+	7. Recognition
+	8. Communicating results
+	9. Monitor (keep score)
+	10. Build-in all improvements
+- The Pareto Principle
+	- Developed by Vilfredo Pareto
+	- 80% of consequences arise from 20% of causes
+	- Juran's belief is that this can be applied to quality by focusing organizational efforts on elminating the key sources of most problems
+- The Juran Trilogy (loop cycle)
+	- Quality Planning **->** Quality Control **->** Quality Improvement
+
+### Feigenbaum
+> made quality an integrated component of organizational management 
+
+- Author of Total Quality Control
+- Transformed quality into a recognized profession with it's own organizations
+- Helped found
+	- ASQ (American Society for Quality)
+	- EOQ (European Organization for Quality)
+	- IAQ (International Academy for Quality)
+
+### Crosby
+- Quality Vaccine
+	- Determination
+	- Education
+	- Implementation
+- Crosby's Fourteen Steps to Quality Improvement
+	1. Gain management commitment
+	2. Form cross-functional quality teams
+	3. Identify problems
+	4. Assess the cost of quality
+	5. Increase quality awareness
+	6. Correct problems immediately
+	7. Implement a zero defects approach
+	8. Train supervisors
+	9. Hold a "Zero Defects Day"
+	10. Establish improvement goals
+	11. Identify obstacles to quality
+	12. Recognize employees
+	13. Establish quality councils
+	14. Repeat all 13 steps continually
+		
+## Managers, Quality, and Organizational Excellence
+
+The responsibility for total quality lies on everyone within an organization, managers are responsible for providing vision, policies, and infrastructure
+
+- Planning
+- Organizing
+- Leading
+- Controlling
+
+**Ensure:** Efficiency, effectiveness, responsiveness to customers, continual improvement, innovation, and quality
+
+> Organizational excellence is achieved when all of which are met.
+
+## Keys to Total Quality Success
+
+**Common Errors:**
+
+- Approaching total quality as just another management innovation, or, at the worst, as a quick fix
+- Delegating responsibility to a hired expert rather than applying the leadership necessary to get everyone involved
+- Establishing teams without the necessary cultural change and the proper education and training to work in teams
+- Developing quality initiatives without developing plans for integrating them into all elements of the organization
+- Confusion about the differences among education, awareness, inspiration, and skill building
+
+## The Future of Quality Management
+
+1. Increasing global competition
+2. Increasing customer expectations
+3. Opposing economic pressures
+4. New approaches to management
+
+## Quality Certifications
+
+### ASQ (American Society for Quality)
+
+- **Manager of Quality/Organizational Excellence**
+	- For managers who 
+		- lead process improvement initiatives
+		- establish customer and supplier relations
+		- support strategic planning
+		- manage human resources
+		- analyze budgets & finances
+		- evaluate risk
+		- use management tools & techniques
+	- Education & experience requirements
+		- 10 years experience in leadership/leadership/management methods/customer focus/supply chain management
+		- 5 years must be at the decision making level
+		- Education waivers up to 5 years available to relevant degrees
+	- Examination topics
+		- covers: leadership, strategic planned development & deployment, management elements & methods, quality management tools, customer focus organizations, supply chain management, training & development
+- **Quality Engineer**
+	- For those who develop & operate quality control systems, analyze testing & inspection procedures, use metrology and statistical systems to diagnose quality issues, understand human factors & motivation, audit quality systems for identifying and correcting deficiencies
+	- Education & experience requirements
+		- 8 years work experience in management, quality systems, product process design & control, continuous improvement
+		- If have diploma from ASQ accredited location, you can get a waiver of:
+			- 1 year for TECH
+			- 2 years for associate degree
+			- 4 years for bacculauriate degree
+			- 5 years for masters/doctorate
+	- Examination topics
+		- covers: quality philosphies & principles, quality management systems, ethical principles, leadership, communication skills, customer relations, supplier management, barriers to quality
+- **Quality Technician**
+	- For those who analyze & solve quality problems, perform audits, prepare inspection plans, apply statistical methods for process control under direction of quality managers & engineers
+	- Education & experience requirements
+		- 4 years education/experience in quality related areas
+		- up to 3 years education waived if degree from ASQ accredited institution
+			- 1 year for Quality Technology Certification
+			- 2 years for associate degree
+			- 3 years for bachelors/masters/doctors
+	- Examination topics
+		- covers: quality concepts & tools, statistical techniques, metrology and calibration, inspection & testing, quality audits, preventive and corrective action
+- **Quality Auditor**
+- **Six Sigma**
+
+### ---------------- END OF UNIT 1 ----------------

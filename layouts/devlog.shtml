@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1">
+    <title :text="$page.title"></title>
+    <link type="text/css" rel="stylesheet" href="$site.asset('style.css').link()">
+    <link type="text/css" rel="stylesheet" href="$site.asset('themes.css').link()">
+    <link type="text/css" rel="stylesheet" href="$site.asset('highlight.css').link()">
+    <style>
+      .feed {
+        margin-top: 2em;
+      }
+
+      .feed>div {
+        margin: 0 -20px;
+        padding: 5px 20px;
+        margin-bottom: 1em;
+      }
+
+      .feed>div>h2 {
+        margin-top: 0.4em;
+      }
+
+      .feed>div[id]:target {
+        animation: pulse-div 2s ease-in-out 1 forwards;
+      }
+
+      @keyframes pulse-div {
+
+        0%,
+        100% {
+          background-color: #222;
+        }
+
+        50% {
+          background-color: #111;
+        }
+      }
+    </style>
+  </head>
+  <body id="body" class="theme-modern">
+    <h1 class="title" :text="$page.title"></h1>
+    <div :html="$page.contentSection('about')"></div>
+    <div class="feed" :loop="$page.contentSections().slice(1)">
+      <div id="$loop.it.id">
+        <span :text="$loop.it.id.parseDate().format('January 02, 2006')"></span>
+        <h2><a href="$loop.it.id.prefix('#')" :html="$loop.it.heading()"></a></h2>
+        <ctx :html="$loop.it.htmlNoHeading()"></ctx>
+      </div>
+    </div>
+  </body>
+</html>

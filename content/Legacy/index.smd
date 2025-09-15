@@ -1,0 +1,18 @@
+---
+.title = "Legacy Course Notes",
+.author = "carsonSgit", 
+.description = "Archive of previous semester course notes",
+.layout = "page.shtml",
+.date = @date("2024-09-01T00:00:00"),
+---
+
+# Legacy Course Notes
+
+This section contains archived course notes from previous semesters.
+
+## Available Semesters
+
+- **Fall 2024**: ENGL 250, LING 222, MATH 204, THEO 233
+- **Winter 2025**: EXCI 233, FFAR 298, PHIL 298
+
+*Note: Individual course files are currently being reorganized.*

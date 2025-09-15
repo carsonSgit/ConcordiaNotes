@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1">
+    <title :text="$site.title"></title>
+    <link type="text/css" rel="stylesheet" href="$site.asset('style.css').link()">
+    <link type="text/css" rel="stylesheet" href="$site.asset('themes.css').link()">
+    <link type="text/css" rel="stylesheet" href="$site.asset('highlight.css').link()">
+    <!-- mathtex -->
+    <link type="text/css" rel="stylesheet" href="$site.asset('Temml-Local.css').link()">
+    <script defer src="$site.asset('temml.min.js').link()"></script>
+    <script defer src="$site.asset('render-mathtex.js').link()"></script>
+    <!-- /mathtex -->
+    <script defer src="$site.asset('navigation.js').link()"></script>
+  </head>
+  <body id="body" class="theme-modern">
+    <div class="layout-container">
+      <!-- Sidebar Navigation -->
+      <aside class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+          <h2 class="site-title-sidebar" :text="$site.title"></h2>
+          <button class="sidebar-toggle" onclick="toggleSidebar()" aria-label="Toggle navigation">☰</button>
+        </div>
+        
+        <!-- Theme Selector -->
+        <div class="theme-selector">
+          <label for="theme-select">Theme:</label>
+          <select id="theme-select" onchange="changeTheme(this.value)">
+            <option value="modern">Modern</option>
+            <option value="retro">Retro</option>
+            <option value="terminal">Terminal</option>
+            <option value="basic">Basic Text</option>
+            <option value="academic">Academic</option>
+            <option value="dark">Dark Mode</option>
+          </select>
+        </div>
+
+        <!-- Navigation Tree -->
+        <nav class="sidebar-nav">
+          <div class="nav-section">
+            <a href="$site.page('').link()" class="nav-link">🏠 Home</a>
+          </div>
+          
+          <div class="nav-section">
+            <h3 class="nav-header">📚 Fall 2025</h3>
+            <div class="nav-subsection">
+              <a href="$site.page('F25').link()" class="nav-link">Overview</a>
+              <a href="$site.page('F25/TECH4040').link()" class="nav-link">TECH4040</a>
+              <a href="$site.page('F25/TECH4025').link()" class="nav-link">TECH4025</a>
+              <a href="$site.page('F25/TECH4060').link()" class="nav-link">TECH4060</a>
+              <a href="$site.page('F25/TECH4050').link()" class="nav-link">TECH4050</a>
+            </div>
+          </div>
+          
+          <div class="nav-section">
+            <h3 class="nav-header">📁 Legacy Notes</h3>
+            <div class="nav-subsection">
+              <a href="$site.page('Legacy').link()" class="nav-link">Overview</a>
+            </div>
+          </div>
+        </nav>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="main-content">
+        <header class="top-nav">
+          <button class="mobile-menu-toggle" onclick="toggleSidebar()" aria-label="Toggle navigation">☰</button>
+          <h1 class="page-title" :text="$page.title"></h1>
+        </header>
+        
+        <div class="content-area">
+          <div :html="$page.content()"></div>
+        </div>
+        
+        <footer class="main-footer">
+          <hr>
+          <p><small>📝 Course notes for Concordia University | Built with <a href="https://zine-ssg.io">Zine</a></small></p>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>

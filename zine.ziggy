@@ -1,0 +1,11 @@
+Site {
+    .title = "Concordia Notes",
+    .host_url = "https://carsonsgit.github.io",
+    .url_path_prefix = "ConcordiaNotes",
+    .content_dir_path = "content",
+    .layouts_dir_path = "layouts",
+    .assets_dir_path = "assets",
+    .static_assets = [
+        "Temml.woff2",
+    ],
+}
