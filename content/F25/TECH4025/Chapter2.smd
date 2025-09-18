@@ -1,0 +1,243 @@
+---
+.title = "Chapter 2: Displaying and Describing Categorical Data",
+.author = "carsonSgit", 
+.description = "Displaying and Describing Categorical Data - Frequency and Distribution", 
+.layout = "page.shtml",
+.date = @date("2025-09-18T00:00:00") 
+---
+
+### Three Rules of Data Analysis
+
+1. Make a picture - **Think:** information may be presented that is not obvious through the raw data, need to *think*.
+2. Make a picture - **Show:** important features/patterns in data will *show* up, you may see things that you did not expect.
+3. Make a picture - **Tell:** best way to *tell* others about your data is through a graphic.
+
+### Categorical Data
+
+- **Class:** one of the categories in which qualitative (categorical) data can be classified.
+- **Class frequency:** number of items in each class.
+- **Class relative frequency:** proportion of total items in each class.
+
+### Relative Frequency
+
+**Class Relative Frequency** => (Class frequency)/(Total number of items)  
+**Class Percentage** => (Class relative frequency) * 100
+
+### Frequency Tables: Making Piles
+
+**Pile** => pile data by counting # of data values in each category.
+
+1. These **counts** can be put into a *frequency table* which records totals & category names.
+
+```
+> Frequency table of Titanic Passengers and crew  
+>  ________________  
+> | Class  | Count |  
+> |--------|-------|  
+> | First  |  325  |  
+> | Second |  285  |  
+> | Third  |  706  |  
+> | Crew   |  885  |  
+> | Total  |  2201 |  
+>  ----------------  
+```
+
+2. A **relative frequency table** is similar but gives proportion/percentages (instead of counts) for each category.
+
+```
+> Relative Frequency Table:  
+>  _______________________________________________________________________  
+> | Class   | Count   | Relative Frequency   | Percent Relative Frequency |  
+> |---------|---------|----------------------|----------------------------|  
+> | First   | 325     | 325/2201 = 0.1477    | 14.77%                     |  
+> | Second  | 285     | 285/2201 = 0.1295    | 12.95%                     |  
+> | Third   | 706     | 706/2201 = 0.3208    | 32.08%                     |  
+> | Crew    | 885     | 885/2201 = 0.4021    | 40.21%                     |  
+> | Total   | 2201    | 2201/2201 = 1.00     | 100%                       |  
+>  -----------------------------------------------------------------------
+```
+
+### The Area Principle
+
+The area occupied by part of the graph should correspond to the magnitude of the value it represents.
+
+### Bar Charts
+
+**Bar Charts:**
+
+- **Bar chart** displays the distribution of a categorical variable, showing counts for each category side-by-side for easy comparison.
+- Stays true to the *area principle*.
+
+**Relative Frequency Bar Charts:**
+
+- **Relative Frequency bar charts** display the relative *proportion* of counts for each category.
+- Stays true to the *area principle*.
+
+### Pie Charts
+
+- Displays the entire group of cases.
+- Stays true to the *area principle*.
+
+### Exploring relationships between two categorical variables: Contingency Tables
+
+- A **contingency table** allows for analysis of **two** categorical variables together.
+- Shows how individuals are distributed for each variable, contingent on the value of the other variable.
+
+```
+> Contingency Table  
+>						 Class  
+>          _______________________________________  
+>  _______| First | Second | Third | Crew | Total |  
+> | Alive | 203   | 118    | 178   | 212  | 711   |  
+> | Dead  | 122   | 167    | 528   | 673  | 1490  |  
+> | Total | 325   | 285    | 706   | 885  | 2201  |  
+>  -----------------------------------------------  
+```
+
+- Each **cell** gives the count for a combination of the two values.
+- The margins (right and on bottom) give totals for each of the variables and can be used to calculate **marginal distribution** for each variable as a proportion/percentage of the total count.
+- Using the overall total, calculate the **joint distribution** (combines both the row and column variables)
+
+### Marginal Distribution (by % of "All" counts)
+
+**Totals of each Survival Status:**
+
+- % survivors = (711/2201) * 100 = 32.3%
+- % perished = (1490/2201) * 100 = 67.7%
+
+```
+> Marginal Distribution (Row variable)  
+>  _________________________________________________  
+> | Survival | First | Second | Third | Crew | All  |  
+> |----------|-------|--------|-------|------|------|  
+> | Alive    |       |        |       |      | 32.3 |  
+> | Dead     |       |        |       |      | 67.7 |  
+> | All      |       |        |       |      | 100  |  
+>  -------------------------------------------------  
+> Of **all the people** on board the Titanic, **32.3%** survived and **67.7%** perished.
+```
+
+**Totals of each Class:**
+
+- % 1st class = (325/2201) * 100 = 14.77%
+- % 2nd class = (285/2201) * 100 = 12.95%
+- % 3rd class = (706/2201) * 100 = 32.08%
+- % crew = (885/2201) * 100 = 40.21%
+
+```
+> Marginal Distribution (Column variable)  
+>  _________________________________________________  
+> | Survival | First | Second | Third | Crew  | All |  
+> |----------|-------|--------|-------|-------|-----|  
+> | Alive    |       |        |       |       |     |  
+> | Dead     |       |        |       |       |     |  
+> | All      | 14.77 | 12.95  | 32.08 | 40.21 | 100 |  
+>  -------------------------------------------------  
+```
+
+### Joint Distribution (By % of total)
+
+- Counts in **each** cell are divided by total people (2201).
+
+- **Alive:**
+	- 1st class: 9.22%
+	- 2nd class: 5.36%
+	- 3rd class: 8.09%
+	- Crew: 9.63%
+
+- **Dead:**
+	- 1st class: 5.54%
+	- 2nd class: 7.59%
+	- 3rd class: 23.99%
+	- Crew: 30.58%
+
+```
+> Joint Distribution  
+>  _________________________________________________  
+> |              Class (Percentages)                |  
+> |_________________________________________________|  
+> | Survival | First | Second | Third | Crew  | All |  
+> |----------|-------|--------|-------|-------|-----|  
+> | Alive    | 9.22  | 5.36   | 8.09  | 9.63  |     |  
+> | Dead     | 5.54  | 7.59   | 23.99 | 30.58 |     |  
+> | All      |       |        |       |       |     |  
+>  -------------------------------------------------  
+```
+
+### Marginal and Joint Distribution
+
+```
+> Marginal **and** Joint Distribution  
+>  __________________________________________________  
+> |              Class (Percentages)                 |  
+> |__________________________________________________|  
+> | Survival | First | Second | Third | Crew  | All  |  
+> |----------|-------|--------|-------|-------|------|  
+> | Alive    | 9.22  | 5.36   | 8.09  | 9.63  | 32.3 |  
+> | Dead     | 5.54  | 7.59   | 23.99 | 30.58 | 66.7 |  
+> | All      | 14.77 | 12.95  | 32.08 | 40.21 | 100  |  
+>  --------------------------------------------------
+```
+
+### Conditional Distributions
+
+A **conditional distribution** shows the distribution of **one variable** for *individuals who satisfy some condition* on another variable.
+
+```
+> Conditional Distribution  
+>
+> 		            Class  
+>          ________________________________________  
+>         | First | Second | Third | Crew  | Total |  
+>  _______|-------|--------|-------|-------|-------|  
+> | Alive | 203   | 118    | 178   | 212   | 711   |  
+> |       | 28.6% | 16.6%  | 25.0% | 29.8% | 100%  |  
+>  ------------------------------------------------  
+```
+
+### Percentage Distribution of Survival Status conditional on Class
+
+```
+>  ___________________________________________________  
+> |     Survival Status Conditional on Class          |  
+> |___________________________________________________|  
+> | Survival | First | Second | Third | Crew  | All   |  
+> |----------|-------|--------|-------|-------|-------|  
+> | Alive    | 62.46 | 41.40  | 25.21 | 23.95 | 32.30 |  
+> | Dead     | 37.54 | 58.60  | 74.79 | 76.05 | 66.70 |  
+> | All      | 100   | 100    | 100   | 100   | 100   |  
+> |---------------------------------------------------| 
+> | Cell Contents: % of Column                        |  
+>  ---------------------------------------------------
+```
+
+### Graphing Conditional Distributions
+
+- Conditional distributions show that there's a difference in survival rate between classes.
+- To graph them, use **segmented bar charts** or **side-by-side bar charts**.
+
+### Segmented Bar Charts
+
+- A **segmented bar chart** displays the same info as a pie chart but in bar form.
+
+### Side-by-side bar charts
+
+- Two approaches:
+	- **Percent of Survival Status within Class:** two bars per class → Alive & Dead.
+	- **Percent of class within Survival Status:** four bars per survival status → First, Second, Third, Crew.
+
+**Analysis:**
+
+- **Chance of survival depended on class.**
+- Thus, *Class* and *Survival* are **associated**, they are **not independent**.
+
+> Variables are **independent** if the distribution of one variable in a contingency table is roughly the same for all categories of the other variable.
+
+## Closing Notes
+
+- Can summarize *categorical data* by counts or percentages.
+- Can display using bar or pie charts.
+- For two-way tables (**contingency tables**), analyze **marginal**, **joint**, or **conditional** distributions.
+- If conditional distributions are the same across categories, variables are **independent**.
+
+### ---------------- END OF CHAPTER 2 ----------------
