@@ -1,0 +1,355 @@
+---
+.title = "Chapter 5: The Standard Deviation as a Ruler and the Normal Model",
+.author = "carsonSgit", 
+.description = "Z-scores calculations, Nromal model, 68-95-99.7 Rule, standard Normal distribution.", 
+.layout = "page.shtml",
+.date = @date("2025-09-28T00:00:00") 
+---
+
+
+### The Standard Deviation as a Ruler
+
+- We will compare very different-looking values using standard deviations as our rulers.
+- We'll judge how unusual a value is by how far, ins tandard deviation units, it lies from the mean.
+- Statisticians use the standard deviation as a ruler throughout statistics.
+
+### Standardizing with Z-Scores
+
+- Expressing a distance from the mean in standard deviation standardizes the performances. To standardize a value, we subtract the mean and then divide the difference by the standard deviation(s):
+
+> Formula:
+> 
+> z = (y - y-bar)/s
+
+- We call the resulting values **standardized values**, denoted as *z*. They are also called **z-scores**.
+- Standardized values have no units.
+- Z-scores measure the distance of a data value from the mean in standard deviations.
+- A **negative z-score** tells us that the *data value is below the mean*, while a **positive z-score** tells us that the *data value is above the mean*.
+- A z-score of **2** says that a data value is two standard deviations above the mean.
+- A z-score of **-2.3** is more extraordinary than a z-score of **1.2**.
+
+
+### Benefits of Standardizing
+
+- Using the standard deviation as a ruler to measure statistical distance from the mean, we can compare values from the same data set, or even two values measured on different variables or with different scales.
+- Standardized values have been converted from their original units to the standard statistical unit of **standard deviations from the mean** (that is, they have *been converted to z-scores*).
+- Thus, we can compare values that are measured on different scales, with different units, or from different populations.
+
+
+### Shifting and Scaling - What does that do to the distribution?
+
+- Converting data to z-scores is accomplished by subtraction from the mean (**shifting**), and then dividing by the *stdev* (**scaling**).
+- Shifting data:
+	- Adding (or subtracting) a constant to each data point.
+		- **will increase (or decrease)** all measures of position (centre, percentiles or quartiles, min, max) *by the same constant*.
+		- **but, leaves** measures of spread (range, IQR, standard deviation) unchanged.
+- Rescaling data:
+	- When we multiply (or divide) all the data values by any constant:
+		- all measures of position (such as the mean, median, and percentiles) **and**
+		- all measures of spread (such as the range, IQR, and the standard deviation) *are multipled (or divided) by that same constant*.
+
+> Examples: Shifting and Rescaling
+>
+> Take a dataset of men's weight (i.e. 50kg-150kg)
+>
+> **Shifting:** Add or subtract a constant. 
+>	- In this example, we can *shift* the data to get a new dataset of men's weight above the *recommended weight*
+>	- We get a result: The data has *shifted* to the left, but the *spread and shape* of the distribution are unchanged.
+>
+> **Rescaling:** Multiply or divide by a constant.
+>	- In this example, we can use this to convert the **kg** to **pounds** (i.e. 2.2(y))
+>	- We get a result: The data has been *rescaled* to a different unit of measurement, each measure of position is now 2.2 times as large.
+
+
+### Back to Z-scores
+
+- Standardizing data into z-scores **shifts** the data by subtracting the mean and **rescales** the values by dividing by standard deviation.
+	- Standardizing into z-scores *does not change the* **shape** *of the distribution*.
+	- Standardizing into z-scores *changes the* **centre** *by making the mean 0*.
+	- Standardizing into z-scores *changes the* **spread** *by making the standard deviation 1*.
+	
+
+### When is a z-score Big?
+
+- A z-score gives us an indication of how unusual a value is because it tells us how far it is from the mean.
+- Remember that a negative z-score tells us that the data value is below the mean, while a positive z-score tells us that the data value is above the mean.
+- **The larger a z-score is (positive or negative), the more unusual it is**.
+
+
+### Density Curve
+
+- To decide how big we expect a data value or it's z-score to be, we need to model the data's distribution.
+- The model will let us say much more precisely how often we'd be likely to see data values of different sizes.
+- To model the frequency distribution of a quantitative variable, start by imagining a histogram for a variable based on **LOTS** of data.
+- A smooth curve may fit on the histogram and such curves are called **density curves**.
+
+### Density Curve and the Normal Model
+
+- There are many possible curves that might serve as useful models, but any density curve has to satisfy the following conditions:
+	- the *y-axis* is always positive or zero (or we'd have negative percentages).
+	- *total area* under the curve above the *x-axis* is equal to 1.00 (or we would not cover exactly 100% of the observations).
+- **Normal models are appropriate for distributions whose shapes are bell-shaped, unimodal, and roughly symmetric**.
+
+### Normal Model
+
+- There is a Normal Model for every possible combination of mean and standard deviation.
+	- We write ***N(μ,σ)*** to represent a normal model with a mean of **μ** and a standard deviation of **σ**.
+- We use Greek letters because **μ** and **σ** do not come from data- they are numbers (called **parameters of the population**) that specify the model.
+
+### Normal Probablity Density Function
+
+- The mathematical model (the equation that defines the shape) for the normal curve, is denoted by *f(x)* and is called the **normal probability density function**.
+
+> Formula:
+>
+> f(x) = (1/σ(sqrt(2π)) * e^-(1/2)[(x-μ)/σ]^2
+>
+> More laid out:
+> 
+> *Numerator*: 1
+> *Denomenator*: σ(sqrt(2π)  => standard deviation multiplied by the square root of 2π
+> *Multiplier*: e^-(1/2)[(x-μ)/σ]^2		=> e to the power of a negative multiplier	=> -(1/2)[(x-μ)/σ]^2	=> negative half of (((*x* minus *the mean*) divided by *stdev*) to the power of 2))
+>
+> *e*: mathematical constant approx as *2.71828*
+> *π*: mathematical constant approx as *3.14159*
+> *μ*: the population mean
+> *σ*: population standard deviation
+> *x*: any value of the normal random variable ( -inf < x < +inf )
+>
+> This formula allows us to calculate *y* (or *f(x)*) for a given value of *x* but to use it we need to know the *mean* and *stdev* of the population.
+
+
+### Density Function
+
+- A density funciton is a (**nonnegative**) function or curve that describes the overall shape of a distribution.
+- The total are under the curve is equal to 1, and proportions are measured as areas under the density function (curve).
+
+
+### Properties of the Normal Distribution
+
+1. Bell-shaped.
+2. Symmetric about *μ*.
+3. Proportion of measurements that fall between *plus and minus* one *stdev* of the mean => **P(μ +/- σ) roughly equals 0.68**.
+4. Proportion of measurements that fall between *plus and minus* two *stdev* of the mean => **P(μ +/- 2σ) roughly equals 0.95**.
+5. Proportion of measurements that fall between *plus and minus* three *stdev* of the mean => **P(μ +/- 3σ) roughly equals 0.997**.
+
+
+### Exact shape of a bell-shaped curve is dependent on μ and σ
+
+- The curves below have different centres (μ) and different spreads, given by the stdev (σ).
+- Since the total area under the curve must equal 1.0, the shape of the bell changes as μ changes.
+- The smaller the stdev, the taller and narrower the bell. As the stdev increases, the bell gets wider and more shallow.
+
+- Summaries of data, like the smaple mean and standard deviation, are written with Latin letters (y-bar and s). Such summaries of data are called **sample statistics**.
+- When we standardize Normal Data, we still cal the standardized value a **z-score**, and we write => z = (y - μ)/σ
+	- Z-score is equal to any given value on the *y-axis* minus the *mean*, devided by the *standard deviation*.
+	
+
+### Calculation of z-score
+
+> Formula:
+>
+> z = (y - μ)/σ
+
+- This formula allows us to calculate the z-score of a data point *relative to the mean and stdev* of the **population model**.
+
+> Formula:
+>
+> z = (y - y-bar)/s
+
+- This formula allows us to calculate the z-score of a data point *relative to the mean (y-bar) and stdev (s)* of the **sample**.
+
+
+- Once we have standardized, we need only one model.
+	- The *N(0,1)* model is called the **Standard Normal Model** (or the **standard Normal distribution**).
+	- It has a mean of *0* and a stdev of *1*.
+- Since standardizing does not change the shape of the distribution, *you should only use the standard Normal model for data sets that are normally distributed*.
+- When we use the Normal Model, we are assuming the distribution is Normal.
+- We cannot check this assumption in practice, so we check the following condition:
+	- **Nearly Normal Condition**: The shape of the data's distribution is *unimodal* and *symmetric*.
+	- This condition can be checked with a histogram or a Normal probability plot (coverred later).
+	
+
+### The 68-95-99.7 Rule
+
+- Normal models give us an idea of how extreme a value is by telling us how likely it is to find one that far from the mean.
+- We can find these numbers precisely, but until then we will use a simple rule that tells us a lot about the Normal model.
+	- **P(μ +/- σ) roughly equals 0.68**.
+	- **P(μ +/- 2σ) roughly equals 0.95**.
+	- **P(μ +/- 3σ) roughly equals 0.997**.
+	
+
+### The 68-95-99.7 Rule and Z-Scores
+
+- ~68% of a poulation lies within +/- 1(σ) of the mean: so 68% of population has z-score values between -1 to +1.
+- ~95% of a population lies within +/- 2(σ) of the mean: so 95% of population has z-score values between -2 to +2.
+- ~99.7% of a population lies within +/- 3(σ) of the mean: so 99.7% of population has z-score values between -3 to +3.
+
+### The First Three Rules for Working with Normal Models
+
+- Make a picture.
+- Make a picture.
+- Make a picture.
+- When we have data, make a histogram or boxplot to check the *Nearly Normal Condition* (is the shape of the data distribution *unimodal* and *symmetric*).
+- If that is the case, we can use the Normal model to model the distribution.
+
+**How to sketch a Normal Curve that looks Normal**:
+
+- The Normal curve is bell-shaped and symmetric around it's mean. Start at the middle, and sketch to the right and left from there.
+- Even though Normal model extends forever on either side, you need only draw for 3 standard deviations. After that, there's so little left that it isn't worth sketching.
+- The place where the bell shape changes from curving downard to curving back up - **the inflection point** - is located exactly one standard deviation away from the mean (+/- 1(σ)).
+
+
+### Finding Normal Percentiles
+
+- When a data value doesn't fall exactly 1,2, or 3 standard deviations (σ) from the mean (μ), we can look it up in a table of **Normal Percentiles**.
+- Another term for this table is the **Areas under the Standard Normal distribution**.
+
+
+### What does the area under the curve represent?
+
+- **All of the following**:
+	- Percentiles
+	- Proportions or percentages
+	- Probability
+- Which of these we talk about depends on the question asked about the data.
+- The areas correspond to z-scores and these have been calculated and summarized in standard normal distribution tables.
+
+### Finding Normal Percentiles - Examples
+
+> Consider the distribution of *TOFEL* (Test for Egnlish as a Second Language) scores in which the population parameters are:
+>	- μ = 540
+>	- σ = 60
+>	- y = your score (take 648 for example) => y = 648
+>
+> To answer this question, we need to standardize the data point 648 to a z-score.
+>
+> z = (y - μ)/σ
+> z = (648 - 540)/60
+> z = 1.80
+>
+> Using the standard deviation table
+> 
+>  ______________________
+> |  z  |  .00  |   .01  |
+> |-----|-------|--------|
+> | 1.7 | .9554 | .9564  |
+> | 1.8 | .9641 | .9649  | 
+> | 1.9 | .9713 | .9719  |
+> |-----|-------|--------|
+>
+>
+> So, as our z-score is *1.80*, we find that our percentile is *.9641*. or 96.4%
+> This is written as P(z < 1.80) = 0.9641
+
+> What percentage of test takers scored between 510 and 600 on the TOFEL exam?
+>
+> y1 = 510
+> y2 = 600
+> μ = 540
+> σ = 60
+> 
+> z1 = (y1 - μ)/σ => (510 - 540)/60 => -0.50
+> z2 = (y2 - μ)/σ => (600 - 540)/60 => +1.00
+>
+>  ______________________
+> |   z  |  .00  |   .01  |
+> |------|-------|--------|
+> | -0.4 | .3446 | .3409  |
+> | -0.5 | .3085 | .3050  | 
+> | -0.6 | .2743 | .2709  |
+> |------|-------|--------|
+>
+>  ______________________
+> |  z  |  .00  |   .01  |
+> |-----|-------|--------|
+> | 0.9 | .8159 | .8186  |
+> | 1.0 | .8414 | .8438  | 
+> | 1.1 | .8643 | .8665  |
+> |-----|-------|--------|
+>
+> P(z < -0.50) => 0.3085 => 30.85%	=> This gives us the percentile for this section
+> P(z < +1.00) => 0.8414 => 84.14%  => This gives us the percentile for this section
+>
+> To get the perctage of test takers that scored inbetween 510 and 600 (our two z-scores have been calculated), we have to subtract the smaller area from the larger area
+>
+> P(-0.50 </= z </= +1.00) => P(z </= +1.00) - P(z </= -0.50)
+> 0.8414 - 0.3085 => 0.5328 => This gives us the percentage of people who scored between 510 and 600 on the TOFEL exam.
+
+
+### From Percentiles to Scores
+
+- Sometimes we start with areas and need to find the corresponding z-score or even the original data value.
+- In such cases, we have to work backwards.
+
+> Example: What score does someone need to be in the Top 10% of all test takers?
+>
+> To get this, we need a score that cuts off an area of 10% (or 0.10) in the *upper tail* of the curve.
+> Since the total area must be 100% (or 1.00), the area to the left must be 90% (or 0.90).
+> Thus, we need a z-score that cuts off an area of 0.9000 to the left.
+>
+> Using the standard deviation table
+>  _________________________________________________________________________________________
+> |  z  |   .00  |   .01  |   .02  |   .03  |   .04  |   .05  |   .06  |   .07  |   .08     |
+> |-----|--------|--------|--------|--------|--------|--------|--------|--------|-----------|
+> | 1.3 |    .   |    .   |   .    |    .   |   .    |    .   |   .    |    .   |    .      |
+> | 1.2 |    .   |    .   |   .    |    .   |   .    |    .   |   .    |    .   |  0.8997   | 
+> | 1.1 |    .   |    .   |   .    |    .   |   .    |    .   |   .    |    .   |    .      | 
+> |-----|--------|--------|--------|--------|--------|--------|--------|--------|-----------|
+>
+> There is no exact 0.9000, but 0.8997 is pretty close. 
+> The area of 0.8997 shows up with a 1.2 in the left margin and 0.08 in the top margin. 
+> The z-score for the 90th percentile is approximately *z = 1.28*
+>
+> A z-score of 1.28 is 1.28 standard deviations above the mean.
+> Since the stdev is 60, we do *(60 x 1.28)* = 76.8 points above the mean of 540.
+> 
+> We can also use the formula for the z-score and solve for y instead of z.
+>
+> z = (y - μ)/σ 	=> y = μ + z(σ)
+> y = μ + z(σ) => 540 + 1.28(60) => 540 + 76.8
+> y = 616.8
+>
+> Thus, to place in the top 10%, you need a score of 617.
+
+
+### Determining Whether the Data are from an Approximately Normal Distribution
+
+- When you have raw data, you must check to see whether a Normal model is reasonable.
+	- Construct a histogram or boxplot, note the *shape of the graph*. 
+		- The histogram should be more or less bell shaped and symmetric about the mean.
+		- The boxplot should be symmetric and neither whisker radically different in lengths from the other.
+	- Construct a **normal probability plot** for the data. if the data are approx normal, the points will fall (approx) on a diagonal straight line.
+	
+### Testing for a Normal Distribution
+
+- Ryan-Joiner Test (useful for small data sets)
+- Anderson-Darling
+- Kolmogorov-Smirnov
+
+These are essentially probability plots but gives a *p* value that indicates whether the data is normal or not.
+
+- **A general rule of thumb is that**:
+	- if **P < 0.0500**, the data is **NOT** normal.
+	- if **P > 0.0100**, the data is quite normal.
+	- The greater *p* is, the more normal the data is.
+	- There is a grey area when the *p-value* falls between 0.05 and 0.10. In this situation, the data is *border-line* normal.
+	
+### What Can Go Wrong?
+
+- Don't use a Normal Model when the distribution is **not** unimodal and symmetric.
+- Don't use the mean and standard deviation when outliers are present, the mean and standard deviation can both be distorted by outliers.
+- Don't worry about minor differences in results.
+
+### What Have We Learned?
+
+- Z-scores facilitate comparisons by standardizing variables to have zero mean and unit standard deviation (*N(0,1)*).
+- Recognize normally distributed data by making a histogram and checking whether it is unimodal, symmetric, and bell-shaped, or by making a normal probability plot using technology and checking whether the plot is roughly a straight line.
+	- The Normal model is a distribution that will be important for the rest of this course.
+	- Before using a Normal model, check that the data is plausibly from a normally distributed population.
+	- Normal probability plot provides evidence that the data is Normally distributed if it is roughly linear.
+- Understand how to use the Normal Model to judge whether a value is extreme.
+	- Standardize values to make z-scores and obtain a standard scale, then, refer to a standard Normal distribution.
+	- Use the 68-95-99.7 Rule as a rule-of-thumb to judge whether a value is extreme.
+- Know how to refer to tables/technology to find the probability of a value randomly selected from a Normal model failing in any interval.
+	- Know how to perform calculations about Normally distributed values and probabilities.

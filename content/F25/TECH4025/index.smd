@@ -37,6 +37,27 @@
 - Five-Number Summary
 - Boxplots
 
+### Chapter 4: Understanding and Comparing Distributions
+
+[Re-expressing Data using Logarithmic Functions]($link.page("F25/TECH4025/Chapter4"))
+- Comparing Groups
+- Identifying Outliers
+- Timeplots
+- Smoothing Timeplots
+- Transforming Skewed Data to Improve Symmetry
+
+### Chapter 5: The Standard Deviation as a Ruler and the Normal Model
+
+[Z-scores and the Normal model]($link.page("F25/TECH4025/Chapter5"))
+- Z-score formula
+- Standard Normal Model
+- Standard Normal Distribution
+- Nearly Normal Condition
+- 68-95-99.7 Rule
+- Sketching a Normal Curve
+- Percentiles
+- Standard Deviation Table
+
 ---
 
 *To be updated weekly throughout the semester.*

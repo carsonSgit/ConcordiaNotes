@@ -3,7 +3,7 @@
 .author = "carsonSgit", 
 .description = "Re-expressing and transforming data using logarithmic functions", 
 .layout = "page.shtml",
-.date = @date("2025-09-27T00:00:00") 
+.date = @date("2025-09-28T00:00:00") 
 ---
 
 
