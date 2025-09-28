@@ -1,0 +1,440 @@
+---
+.title = "Chapter 3: Displaying and Summarizing Quantitative Data",
+.author = "carsonSgit", 
+.description = "Describing Quantitative Data Graphically and Numerically", 
+.layout = "page.shtml",
+.date = @date("2025-09-27T00:00:00") 
+---
+
+
+### Dealing with a Lot of Numbers
+
+- It's difficult to make any inference/conclusions by simply lookinng at large set of quantitative data.
+- Without any summaries of the data, it's hard to grasp what the data is telling us.
+- This covers some methods of describing the data graphically and numerically.
+
+### Graphical Summaries of Quantitative Data
+
+- The best thing to do is make a picture.
+- We can't use bar charts or pie charts for quantitative data, those displays are only used for categorical/qualitative variables.
+- This will cover:
+	- Histograms
+	- Stem and leaf plots
+	- Dotplots
+	
+### Numerical Summaries of Quantitative Data
+
+- Generally, we want to describe the center and the spread of the data, as well as it's symmetry.
+- Covering:
+	- **Measures of Centre:**
+		- Mean, median, mode.
+	- **Measures of Spread:**
+		- Range and Interquartile Range, IQR.
+		- Variance and standard deviation.
+		
+### Histograms: Earthquake Magnitudes
+
+- Data set: 1318 eathquake magnitudes
+- To construct a histogram, first we have to slice up the entire span of values covered by the quantitative variable into equal-width intervals called **bins**.
+- Bins and the counts in each bin gives the **distribution** of the quantitative variable.
+- A **histogram** plots the bin counts as the heights of bars (like bar charts)
+
+> Hisogram of Earthquake Magnitude measured on the Richter Scale
+> X-axis: the Bins
+> Y-axis: the Counts
+>
+> **Distribution of magnitude of global tsunami generating earthquakes**
+>  	  
+>     ______________________________________________________________
+> 350|                                   ___
+>    |                                  |   |
+>    |                                  |   |
+> 300|                               ___|   |___
+>  	 |								|   |   |   |
+>    |                              |   |   |   |
+> 250|                              |   |   |   |
+>    |                              |   |   |   |
+>    |                              |   |   |   |
+> 200|                              |   |   |   |
+>    |                              |   |   |   |
+>    |                              |   |   |   |
+> 150|                           ___|   |   |   |___
+>    |                          |   |   |   |   |   |
+>    |                          |   |   |   |   |   |
+> 100|                          |   |   |   |   |   |
+>    |                          |   |   |   |   |   |
+>    |                       ___|   |   |   |   |   |
+>  50|                   ___|   |   |   |   |   |   |___
+>    |___________---____|___|___|___|___|___|___|___|___|---________
+>	0	3		4		5		6		7		8		9		10	
+>
+>
+> Y:Axis = Frequency (Counts)
+> X:Axis = Magnitude in Richter Scale units (Bins)
+
+- From the histogram, we can see features of the distribution of earthquake magnitudes:
+	- Most of the values (highest bar/bin) are concentrated around 7.0-7.5)
+	- Typically, magnitudes range from 5.5 to 8.5
+	
+- A **relative frequency histogram** displays the **percentage** of cases in each bin instead of the count
+	- Relative frequency histograms are faithful to the area principle (add each % of each bar, you get 100%)
+	- The relative frequency of earthquake magnitudes shows different numbers than through just a standard histogram (instead, ranges may be 7.0-7.2)
+	
+	
+### Difference between bar charts and histograms
+
+*Bar charts:* The bins on a bar chart do not touch as each bin represents a separate category.
+
+*Histograms:* Used for data on a continuous scale, there will not be any gaps in the x-axis variable (if gaps, it's because there's no data)
+
+### Stem-and-leaf Displays
+
+- *Steam-and-leaf* displays show the distribution of a quantitative variable (like histograms) while preserving the individual values.
+- Contain all of the information found in a histogram and, when carefully drawn, satisfy the area principle and show the distribution.
+- Stems: leading digits -> 51, 5 is the stem.
+- Leaf/leaves: trailing digits -> 51, 1 is the leaf.
+- Use only one digit per leaf (round or truncate data to one decimal place after the stem).
+- **In order to construct the plot by hand, the data must be ordered from smallest to largest**.
+
+> Stem-and-leaf of Pulse Rate (bpm)  N = 24
+> Leaf Unit = 1.0
+>
+>  1   5   6
+>  5   6   0444
+>  9   6   8888
+> (4)  7   2222
+>  11  7   6666
+>  7   8   000044
+>  1   8   8
+>
+>
+> The leaves (right) - Each value in the leaf column represents a digit from one observation. The "leaf unit" (declared above the plot) specifies which digit is used. In the example, the leaf unit is 1.0. The leaf is generally the last digit in a set of values. Thus, the leaf value for an observation of 8 is 8 while the leaf value for an observation of 10 is 0. If the numbers were expressed to one place after the decimal, say, 12.3, 3 would be the leaf.
+> The stem (middle) - The stem value represents the digit immediately to the left of the leaf digit. Since the pulse rate data are recorded to the ones place, the stem will be the tens place. Note there are two rows with a stem of 6, two rows at 7 etc. This means Minitab has chosen to use an increment width of 5, but you can control that.
+> Counts (left) - If the median value for the sample is included in a row, the count for that row is enclosed in parentheses. The values for rows above and below the median are cumulative. The count for a row above the median represents the total count for that row and the rows above it. The value for a row below the median represents the total count for that row and the rows below it.
+
+
+### Dotplots
+
+- Simple display, places a dot along an axis for each case in the data.
+- Dotplots can be displayed horizontally or vertically.
+
+
+### Think Before You Draw, Again
+
+- Now that we have options for data displays, we need to think carefully about the typie of display to make.
+- Before making a stem-and-leaf, histogram, or dotplot, check the:
+	- **Quantitative Data Condition:** The data need to be values of a quantitative variable whose units are known.
+
+### Shape, Centre, and Spread
+
+When describing the distribution of a data set, or a population, we generally want to note three features:
+	- Shape	
+	- Centre
+	- Spread
+	
+
+### What is the Shape of the Distribution
+
+1. Does the histogram (or any display) have a single, central hump or several separated humps?
+2. Is the histogram (or any display) symmetric?
+3. Do any unusual features stick out?
+
+
+### Humps
+
+Does the histogram (or any display) have a single, central hump or several separated humps?
+
+- Humps in a histogram are called **modes**.
+- A histogram with one main peak is dubbed **unimodal**; histograms with two peaks are **bimodal**; histograms with three or more peaks are **multimodal**.
+- A histogram with no apparent mode, and which all bars are approximately the same height, is called **uniform**.
+
+
+### Symmetry
+
+Is the histogram symmetric?
+
+- If you can fold the histogram along a vertical line through the middle and have the edges match pretty closely, it's **symmetric**.
+- The (usually) thinner ends of a distribution are called the **tails**. If one tail stretches out farther than the other, the historgram is said to be **skewed** to the side of the longer tail.
+
+
+### Anything Unusual
+
+Do any unusual features stick out?
+
+- Sometimes, the unusual features tell us something the interesting or exciting about the data.
+- Always mention any stragglers/**outliers**, that stand off away from the body of the distribution.
+- Are there any **gaps** in the distribution? If so, the data may come from more than one group.
+
+
+### Centre of a Distribution
+
+- When a distribution is unimodal and symmetric, most people point to the centre of the distribution, where the histogram peaks.
+- A number that is located near the center of the distribution describes a **measure of central tendency**.
+- Three common measures of central tendency include:
+	- Mean (most commonly used)
+	- Median
+	- Mode
+	
+
+### Centre of a Distribution - Mean
+
+- If we want to calculate a number that describes the centre, we can average the data.
+- Arithmetic mean = average = mean
+- **y-bar:** represents the mean. (*In stats, a letter with a bar over it denotes a mean*).
+- **Sigma:** refers to "sum"
+- **Formula:** y-bar = (Total/n) = (Sigma-y/n)
+
+> Formula
+>
+> y-bar = (Total/n) = (Sigma-y/n)
+>
+> y-bar = (Sigma-y)/n
+
+
+### Centre of a Distribution - Median
+
+- The **median** is the value with exactly half the data values below it and half above it.
+	- It is the middle data value (once the data values have been ordered) that divides the histogram in two equal areas.
+	- It has the same units as the data.
+	- It is resistant to values that are extraordinally small or large.
+	
+
+### Mean or Median
+
+- In symmetric distributions, the mean and median are *approximately* the same in value, so either measure of centre may be used.
+- For skewed data, it's better to report the median than the mean as a measure of the centre.
+- The median is only minimally affected by the magnitude of a single observation, this resistance to the effect of change in value or presence of outlying values is often a desirable property.
+- When the *mean and median are equal*, it indicates that the data is more or less symmetric.
+- When *mean > median*, it indicates that the data has a positive or right skew.
+- When **mean < median*, it indicates that the data has a negative or left skew.
+
+
+### Mode
+
+- The mode is the most frequently observed value in a data set.
+- Value having highest bar in a histogram.
+- If a distribution is perfectly symmetric, then:
+	- Mean = Median = Mode
+
+> Example: The mode of this dataset is 11:
+> 			4 6 8 9 11 11 12
+> This is because 11 is the number with the highest bin count.
+
+
+### Measures of Data Variation
+
+Measure the spread in the data distribution.
+
+Include: 
+	- Range.
+	- Variance and Standard Deviation
+	- Interquartile Range (IQR)
+	
+
+### Spread: The Range
+
+- Always report a measure of **spread** along with a measure of centre when describing a distribution numerically.
+- The **range** of the data is the difference between the maximum and minimum values:
+	- **Range = max - min**
+- A disadvantage of the range is that a single extreme value can make it a very large, and it is not representative of the data overall.
+
+
+### Spread: The Standard Deviation
+
+- A more powerful measure of spread is the **standard deviation**. The standard deviation takes into account how far each data value is from the mean. Like the mean, the standard deviation is appropriate only for symmetric data.
+- A **deviation** is the distance that a data value is from the mean.
+- Since adding all deviations together would total zero, we square each deviation and find an average of sorts for the deviations.
+- The **variance**, notated by **s^2** is found by summing the squared deviations and (almost) averaging them.
+- The **standard deviation**, notated by **s**, is just the square root of the variance and is measured in the same units as the original data.
+
+> Formula for **variance**
+> 
+> s^2 = (Sigma(y - y-bar)^2)/n-1
+>
+> Formula for **standard deviation**
+>
+> s = sqrt((Sigma(y - y-bar)^2)/n-1)
+>
+>
+> **Example - Variance and Standard Deviation**
+>
+> Find the variance of the data set: 3,7,2,1,8
+> 
+> 1. Determine the mean: **y-bar** = (Sigma-y)/n
+> 		**y-bar** = (3+7+2+1+8)/5 => 21/5 => 4.2
+>		**y-bar** = 4.2
+>
+> 2. Find the squared deviations (find deviations, square them):
+>  __________________________________________________________________
+> |		   |  Observation *y*  |  y - *y-bar*   |  (y - *y-bar*)^2   |
+> |	 	   |-------------------|----------------|--------------------|
+> |	 	   |		 3         | (y-4.2) = -1.2 |  (-1.2)^2 = 1.44   |
+> |	 	   |		 7         | (y-4.2) =  2.8 |  (2.8)^2  = 7.84   |
+> |	 	   |		 2         | (y-4.2) = -2.2 |  (-2.2)^2 = 4.84   |
+> | 	   |		 1         | (y-4.2) = -3.2 |  (-3.2)^2 = 10.24  |
+> |	 	   |		 8         | (y-4.2) =  3.8 |  (3.8)^2  = 14.14  |
+> |	 	   |-------------------|----------------|--------------------|
+> | Totals |        21         |        0       |        38.8        |
+> |________|___________________|________________|____________________|
+>
+> *Note how the deviations sum to 0 if you don't square them*
+> 
+> 3. Find the variance: **s^2 = (Sigma(y - y-bar)^2)/n-1
+>		s^2 = 38.8/5-1 => 38.8/4
+>		s^2 = 9.7
+>
+> 4. Find the standard deviation: sqrt(s^2)
+>		s = sqrt(s^2)
+>		s = sqrt(9.7)
+>		s = 3.1
+>
+> - **This gives a number that has the same units as those of our original data**.
+> - The standard deviation tells us, that on average, the data deviates by 3.1 units from the mean of 4.2.
+> - The larger the standard deviation (or variance), the more spread out the data is.
+
+
+### Spread: The Interquartile Range
+
+- The **interquartile range (IQR)** lets us ignore extreme data values and concentrate on the middle of the data.
+- To find the IQR, first we need to know what quartiles are.
+- Arrange the data from smallets to largest.
+- **Quartiles** divide the data into four equal sections.
+
+>    |   25 %   |   25%   |   25%    |    25%    |
+>  Min          Q1        Median     Q3          Max
+
+- The difference between the quartiles is the IQR:
+	- **IQR = Q3 - Q1**
+- **IQR tells us the range of the middle half of the data**.
+- The lwoer and upper quartiles also represent the 25th and 75th percentiles of the data, so
+	- The IQR contains the middle 50% of the values of the distribution.
+	
+	
+### Determination of Quartiles
+
+- There are different ways to determine or calculate quartiles.
+
+
+### Determining quartiles when ***n is odd: Textbook Approach***
+
+- Consider the following data (already ordered from smallest to largest).
+- The median (middle value) is not counted.
+- Q1 is the value in the centre of the bottom half, while Q3 is the value in the centre of the top half.
+- `2 3 5 45 46 47 48 59 90 151 208`
+	- 5 = Q1 => *P(0.25)*, 25th percentile.
+	- 90 = Q3 => *P(0.75)*, 75th percentile.
+- *IQR* = Q3 - Q1 => P(0.75) - P(0.25) => 90 - 5 => 85
+- While the range is (max - min) => (208 - 2) => 206, the IQR is 85.
+	- If this distribution were symmetric, we would expect IQR to be half of the range (103 instead of 85)
+	
+
+### Calculation of IQR when n is even
+
+- Consider the following data set in which *n = 12*:
+	- `2 3 5 45 46 47 48 49 50 90 151 208`
+	- Median = 47 + 48 / 2 => 47.5
+	- Q1 = 5 + 45 / 2 	   => 25
+	- Q3 = 50 + 90 / 2     => 70
+	
+
+### Comparing two measures of spread: Consider s and IQR of Data Sets A and B
+
+- **Data Set A**: `4 6 8 9 11 11 12` => 
+	- IQR = 11 - 6 = 5
+	- Mean = 8.7
+	- Median = 9
+	- S = 2.93
+- **Data Set B**: `4 6 8 9 11 11 120` =>
+	- IQR = 11 - 6 = 5
+	- Mean = 24.1
+	- Median = 9
+	- S = 42.3
+- When the last value is changed from *12* to *120*, *s* increases from 2.93 to 42.3, while the IQR remains exactly the same.
+- IQR is a much more robust measure of spread than the standard deviation *s*.
+- *s* is very sensitive to outlier values and should only be used when data are reasonably symmetric.
+
+
+### The Five-Number Summary
+
+- The **five-number summary** of a distribution reports its:
+	- Median
+	- Quartiles [Q1,Q3]
+	- Extreme values, maximum and minimum
+- Example: The five-number summary for the tsunami earthquake magnitude data is:
+	- Max:    9.1
+	- Q3:     7.6
+	- Median: 7.2
+	- Q1:     6.7
+	- Min:    3.7
+	
+
+### Boxplots
+
+- A **boxplot** is a graphical display of the five-number summary. If data are symmetric we expect both halves of the box to be roughly equal in length and the whiskers to be roughly the same length and the box halves.
+- Boxplots provide visual summaries of:
+	- the variation or spread (IQR -> the box height)
+	- the skewness (relative length of the box halves and whiskers)
+	- the center of the data (median -> the center line of the box)
+	- presence or absence of unusual values (asterisks)
+- Boxplots are particularly useful when comparing groups
+
+> **Constructing a Boxplot**
+>
+> 1. Determine the minimum, Q1, median, Q3, and maximum values (five-number summary)
+> 2. Draw a number line in the vertical direction, draw a rectangle that extends from the first and third quartiles. The length of the box represents the IQR.
+> 3. Draw a line in the box at the median.
+> 4. Calculate the **step size**: defined as the IQR * 1.5
+> 5. Draw a vertical line (upper whisker) that extends to a maxmium of: Upper fence = Q3 + 1.5(IQR)
+> 6. Draw a vertical line (lower whisker) that extends to a minimum of: Lower fence = Q1 - 1.5(IQR)
+> Any values that do not fit int hese whiskers will plot as *outliers* (asterisks in minitab)
+> If the maximum data < the upper fence, then the whisker stops at the maximum (and same for lower)
+
+
+### Thinking about Variation
+
+- Since Statistics is about variation, spread is an important fundamental concept.
+- Measures of spread help us talk about what we don't know.
+- When the data values are tightly clustered around the center of the distribution, the IQR and standard eviation will be small.
+- When the data values are scattered far from the center, the IQR and standard deviation will be large.
+
+### Tell - Draw a Picture
+
+- When telling about quantitative variables, *start by making a histogram or stem-and-leaf display and discuss the shape of this distribution*.
+
+
+### Tell - Shape, Centre, Spread
+
+- Next, always report the **shape** of the distribution, along with a **centre** and a **spread**.
+- If the shape is **skewed**, report the **median** and **IQR**.
+- If the shape is **symmetric**, report the **mean** and **standard deviation**, possible the median and IQR as well.
+
+
+### Tell - What about Unusual Features
+
+- If there are multiple modes, try to understand why. If you identify a reason for the separate modes, it may be good to split thhe data into two groups.
+- If there are any clear outliers and you are reporting the mean and standard deviation, report them with the outliers present and with the outliers removed. The differences may be quite revealing.
+
+
+### What can go wrong?
+
+- Don't make a histogram of a categorical variable-bar charts or pie charts should be used for categorical data.
+- Don't look for shape, center and spread of a bar chart.
+- Don't use bars inn every display-save them for histograms and bar charts.
+- Choose a bin width that is appropriate to the data.
+	- Changing the bin width changes the appearance of the histogram.
+
+
+### What have we learned?
+
+- Make and interpret displays of the distribution of quantitative variables using histogram or stem-and-leaf or dotplots. Understand the distribution in terms of shape, center and spread.
+- Describe the shape of a distribution, such as symmetric, skewed, unimodal, bimodal, multimodal, etc. Report any outliers or any other unusual patterns.
+- Describe the center of a distribution by computing the mean and median.
+	- Mean is suitable measure of center for unimodal or symmetric distributions.
+	- Median is suitable measure of center for skewed distributions or when there are outliers in the data.
+- Compute the standard deviation and the 5-number summary with IQR.
+	- Standard deviation is a suitable measure of spread for symmetric distribution.
+	- IQR is a better summary of spread for skewed distributions or data with outliers.
+	- Always pair median with IQR, and 5-number summary and mean with standard deviations.
+- Use the 5-number summary to construct a boxplot and use boxplots' outlier nomination rule for data items that may deserve special attention.
+	- Boxplot shows the quartiles as the upper and lower ends of the central box and whiskers that extend to the most extremes that are not nominated as outliers.
+	- Boxplots display separately any case that is more than 1.5(IQR) beyond each quartile, these are possible outliers.
