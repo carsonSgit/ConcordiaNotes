@@ -1,0 +1,96 @@
+---
+.title = "Chapter 4: Understanding and Comparing Distributions",
+.author = "carsonSgit", 
+.description = "Re-expressing and transforming data using logarithmic functions", 
+.layout = "page.shtml",
+.date = @date("2025-09-27T00:00:00") 
+---
+
+
+### The Big Picture
+
+- We can answer much more interesting questions about variables when we compare distributions for different groups.
+
+### Comparing Groups
+
+- It is always more interesting to compare groups.
+- With histograms, note the shapes, centres, and spreads of the two distributions.
+
+
+### Identifying Outliers
+
+- There are different methods to identifying outliers:
+	- We can use the method employed when drawing boxplots. A data point is considered unusual if it plots more than 1.5(IQR) from the top of the box and from the bottom of the box.
+	- We can use z-scores as discussed in Chapter 5. Any data point with a z-score greater than the absolute value of 3 is considered unusual.
+	- We can use formal statistical tests such as the Q-test (also known as the Dixon's test) but that will not be coverred in this course.
+	
+
+### Timeplots: Order, Please!
+
+- For some data sets, we are interested in how the data behaves overtime.
+- In these cases, we construct **timeplots** of the data.
+- A display of values against time is called a time series plot or simply time plot.
+
+
+### Smoothing Timeplots
+
+- Timeplots often show a great deal of point-to-point variation which can be hard to interpret.
+- We can use smoothing techniques to discover underlying trends and then think about how the values vary around that trend.
+- This technique will not be coverred in this course.
+
+
+### Transforming Skewed Data to Improve Symmetry
+
+- Sometimes, we will have a distribution that seems to have outliers, but it may also just have a long tail in a direction.
+- There are many ways to make a skewed distribution more symmetric:
+	- Re-express
+	- Transform
+- These can be done by applying a simple function.
+	- One of the most common transformations used is the logarithmic function.
+	- We can use natural log (Ln) or log base 10 (Log).
+
+> Example: Coliform Bacteria Count data
+>
+>   _______________________________________________________
+>  |			   |			     |					   |
+>  | Sample Number | Coliform Counts | log Coliform Counts |
+>  |_______________|_________________|_____________________|
+>  |       1       |         1		 |			0		   |
+>  |       2       |		 1       |			0		   |
+>  |       3       |         6		 |			0.77815	   |
+>  |       4       |         7		 |			0.8451     |
+>  |       5       |	    19		 |			1.27875    |
+>  |       6       |		28		 |			1.44716    |
+>  |       7       |		46		 |			1.66276    |
+>  |       8       |	   120		 |			2.07918    |
+>  |       9       |	   135		 |			2.13033    |
+>  |      10       |	   138		 |			2.13988    |
+>  |      11       |	   186		 |			2.26951    |
+>  |      12       |	   240		 |			2.38021    |
+>  |      13       |	   300  	 |			2.47712    |
+>  |      14       |	   480		 |			2.68124    |
+>  |      15       |	  1075		 |			3.03141    |
+>  |      16       |	  1280		 |			3.10721    |
+>  |      17       |	  2275		 |			3.35698    |
+>  |      18       |	 17000		 |			4.23045    |
+>  |      19       |	 23250		 |			4.36642    |
+>  |---------------|-----------------|---------------------|
+>
+> By applying log re-expression to the data, we get a more symmetric distribution.
+> We go from a **right-skewed** data set to a more even distribution.
+
+
+### What can go wrong?
+
+- Avoid inconsistent scales, either within the display or when comparing two displays.
+- Label clearly so a reader knows what the plot displays.
+- Beware of outliers.
+- Be careful when comparing groups that have very different spreads.
+
+
+### What Have We Learned?
+
+- Choose the right tool for comparing distributions using histograms and boxplots.
+- Treat outliers with attention and care.
+- Timeplots - values over time.
+- Re-express data to make it easier to work with - make skewed distributions more nearly symmetric.
