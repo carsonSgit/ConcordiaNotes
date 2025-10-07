@@ -1,0 +1,168 @@
+---
+.title = "Lesson 1 - Project Management 101",
+.author = "carsonSgit",
+.description = "An Introduction to Project Management",
+.layout = "page.shtml",
+.date = @date("2025-10-6T00:00:00"),
+---
+
+## Lesson 1 - Project Management 101: An Introduction to Project Management
+
+1. Be able to define what a Project is and Project Management.
+2. Discuss why projects are important.
+3. Describe the general characteristics of a Project.
+4. Define the four key elements of a Project.
+5. Be able to understand the Project life cycle and describe each stage/phase.
+6. Be able to list the roles of a Project Manager.
+7. Understand what Project Management Institute (PMI) is and the importance of the Project Management Body of Knowledge (PMBOK) is to Project Management.
+8. List the Nine knowledge areas of the PMBOK.
+9. List the Five Project Management Process Groups of the PMBOK
+
+## Project Management For Technologists
+
+### What is a Project?
+
+- A Project is a temporary endeavor undertaken to create a unique product or service or result. The temporary nature of projects indicates a beginning and an end. - PMBOK 2008
+- A Project is not the process, the process supports the project.
+
+### What is Project Management?
+
+- PM is the application of knowledge, skills, tools, and techniques to project activities to meet the project requirements. - PMBOK 2008
+- PM is accomplished through the appropriate application and integration of 42 logically grouped project management processes comprising the 5 Process Groups.
+
+### Project Vs. Process Work
+
+**Project:**
+
+- Take place outside the process world.
+- Unique and separate from normal organization work.
+- Continually evolving.
+
+**Process:**
+
+- Ongoing, day-to-day activities.
+- Use existing systems, properties, and capabilities.
+- Typically repetitive.
+
+### Project Management & Process
+
+**Project:**
+
+1. New process or product.
+2. One objective.
+3. One shot - limited life.
+4. More heterogeneous.
+5. Systems must be created to integrate efforts.
+6. Performance, cost & time less certain.
+7. Outside of line organization.
+8. Violates established practice.
+9. Upsets status quo.
+
+**Process:**
+
+1. Repeat process or product.
+2. Several objectives.
+3. Ongoing.
+4. People are homogeneous.
+5. Systems in place to integrate efforts.
+6. Performance, cost, & time are known.
+7. Part of the line organization.
+8. Bastions of established practice.
+9. Supports status quo.
+
+
+### Additional Project Definitions
+
+> A Project is a unique venture with a beginning and an end, conducted by people to meet established goals within parameters of cost, schedule and quality.
+> - *Buchanan & Boddy 92*
+
+> Projects are goal-oriented, involve the coordinated undertaking of interrelated activities, are of finite duration, and are all, to a degree unique.
+> - *Frame 95*
+
+### Elements of Projects
+
+- **Complex**, one-time processes.
+- **Limited** by budget, schedule, and resources.
+- Developed to resolve a **clear goal** or set of goals.
+- **Customer-focused**.
+
+### General Project Characteristics
+
+- **Ad-hoc** endeavours with a clear life cycle.
+- **Building blocks** in the design and execution of organizational **strategies**.
+- Responsible for the **newest** and most imporved **products**, services, and organizational **processes**. 
+- Provide a philosophy and strategy for the **management of change**.
+- Entail **crossing** functional and organization **boundaries**.
+- **Traditional management functions** of planning, organizing, motivating, directing, and controlling apply.
+- Principal outcomes are the **satisfaction of customer** requirements within **technical**, **cost**, and **schedule constraints**.
+- **Terminated** upon successful completion.
+
+### Project Success Rates
+
+- Software & hardware projects fail at a 65% rate.
+- The average project has a 43% cost overrun.
+- Up to 75% of all software projects are cancelled.
+- Only 2.5% of global businesses achieve 100% project success.
+- Average success of business-critical application development projects is 35%.
+
+### Determinants of Project Success
+
+- Triple Constraint
+	- Time.
+	- Budget.
+	- Performance.
+- Plus
+	- Client Acceptance
+- New *Quadruple* Constraint
+
+### Why are Projects Important?
+
+1. Shortened product life cycles.
+2. Narrow product launch windows.
+3. Increasingly complex and technical products.
+4. Emergence of global markets.
+5. Economic period marked by low inflation.
+
+### What is the PMI and the PMBOK?
+
+- **Project Management Institute (PMI)** developed the *Project Management Body of Knowledge (PMBOK)*.
+- PMBOK is a guide that identifies the subset of the project management knowledge generally recognized as best practice.
+- PMI views this standard as a foundational project management reference for its professional development programs and certifications.
+- PMBOK also provides and promotes a common vocabulary within the PM profession for discussing, writing, and applying PM concepts.
+
+### Project Life Cycles
+
+- **Conceptualization/Initiation** - the development of the initial goal and technical specifications.
+- **Planning** - all detailed specifications, schedules, schematics, and plans are developed.
+- **Execution** - the actual "work" of the project is performed.
+- **Termination** - project is transferred to the customer, resources reassigned, project is closed out.
+
+
+### The 5 Project Management Process Groups
+
+- **Initiating Process Group:** Those processes performed to define a new project or a new phase of an existing project by obtaining authorization to start the project or phase.
+- **Planning Process Group:** Those processes required to establish the scope of the project, refine the objectives, and define the course of action required to attain the objectives that the project was undertaken to achieve.
+- **Executing Process Group:** Those processes performed to complete the work defined int he project management plan to satisfy the project specifications.
+- **Monitoring and Controlling Process Group:** Those processes required to track, review, and regulate the progress and performance of the project; identify any areas in which changes to the plan are required; and initiate the corresponding changes.
+- **Closing Process Group:** Those processes to finalize all activities across all Process Groups to formally close the project or phase.
+
+### Project Phases
+
+- It can be seen from the PMBOKs process groups that once a project is initiated into execution, a cycle of continual planning through monitoring and control occurs
+
+### PMBOK Project Knowledge Areas
+
+- The PMBOK Knowledge Areas are key project management functions to support the five process groups.
+- Without these key management project success would be very small.
+
+The nine knowledge areas are as follows:
+
+1. Project Integration Management.
+2. Project Scope Management. 
+3. Project Time Management.
+4. Project Cost Management.
+5. Project Quality Management. 
+6. Project Human Resource Management.
+7. Project Communications Management. 
+8. Project Risk Management.
+9. Project Procurement Management.

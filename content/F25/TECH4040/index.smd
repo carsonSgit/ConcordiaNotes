@@ -3,7 +3,7 @@
 .author = "carsonSgit",
 .description = "Course notes for TECH4040",
 .layout = "page.shtml",
-.date = @date("2024-09-15T00:00:00"),
+.date = @date("2025-10-6T00:00:00"),
 ---
 
 ## Course Information
@@ -12,7 +12,10 @@
 ## Weekly Notes
 
 ### Week 1
-*Notes will be added here*
+[An Introduction to Project Management]($link.page("F25/TECH4040/Lesson1"))
+- PMBOK
+- PMI
+- Basics of Project Management
 
 ### Week 2  
 *Notes will be added here*
