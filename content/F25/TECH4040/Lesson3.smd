@@ -1,0 +1,47 @@
+---
+.title = "Lesson 3 - Project Charter",
+.author = "carsonSgit",
+.description = "Project Charter",
+.layout = "page.shtml",
+.date = @date("2025-10-08T00:00:00"),
+---
+
+
+## Lesson 3: Project Charter
+
+### Project Initiation Process Group
+
+- The first stage in the project lifecycle.
+- The main goal is to officially authorize a project to start by gaining approval from organizational management.
+- A key component to this process is creating a **Project Charter**
+
+**Inputs of the Project Initiation Process Group:**
+
+- **Business Documents:** Includes the business case, benefits management plan, or similar documents that justify the project.
+- **Agreements:** Contracts or legal agreements that trigger the project need.
+- **Enterprise Environmental Factors:** Organizational culture, processes, policies, and external factors influencing project initiation.
+- **Organizational Process Assets:** Previous project charters, templates, or historical information.
+
+**Outputs of the Project Initiation Process Group:**
+
+- **Project Charter:** A concise authorization document that has key authorization and project definition elements.
+
+### What is a Project Charter?
+
+The Project Charter is the key document that authorizes the project and empowers the project manager. It is *not* a detailed plan, but a high-level concise document that provides direction and legitimacy.
+
+> A description of what is wanted and measures of success
+
+**Key Elements of the Project Charter contains:**
+
+1. **Project Title and Description:** Clear identification and overview of what the project is about.
+2. **Project Manager Assigned and Authority Level:** Who is managing the project, what power they have.
+3. **Project Justification or Business Case:** Why the project needs to be done.
+5. **Stakeholders:** The individuals or groups with interest or influence in the project.
+6. **High-Level Known Project Requirements:** Broad requirements identified early on.
+7. **Project Deliverables:** Expected outcomes or products from the project.
+8. **Project Constraints and Assumptions:** Known limitations and assumptions impacting the project.
+9. **Signature Block:** Approval by key stakeholders or sponsors.
+
+Crucial to successful project initiation.
+
