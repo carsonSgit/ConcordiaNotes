@@ -1,0 +1,228 @@
+---
+.title = "Lesson 2 - Project Strategy and Organization",
+.author = "carsonSgit",
+.description = "Project Strategy and Organization",
+.layout = "page.shtml",
+.date = @date("2025-10-08T00:00:00"),
+---
+
+
+## Lesson 2 - Project Strategy and Organization
+
+1. Describe 4 key strategic elements that apply to Project Management and understand their relationship.
+2. Describe why stakeholders are important to a Project.
+3. Be able to identify internal and external Project stakeholders and their relationship to a Project.
+4. Describe Block's 6 steps to managing stakeholders.
+5. Describe the 3 common Organisational Structures and the advantages/disadvantages of each structure as it applies to Project Management.
+6. Define the process of Project Selection.
+7. Define what is Project Portfolio Management and it's importance to an organization.
+8. Define what Program Management is.
+9. Described the relationship and differences between Project/Program and Portfolio Management.
+
+
+### Projects and Organizational Strategy
+
+> Strategic management
+> 
+> The science of formulating, implementing and evaluating **cross-functional decisions** that enable an **organization** to achieve it's **objectives**.
+
+Consists of:
+
+- Developing vision and mission statements.
+- Formulating, implementing and evaluating.
+- Making cross functional decisions.
+- Achieving objectives.
+
+### Projects Reflect Strategy
+
+Projects are **stepping stones** of corporate strategy.
+
+The firm's strategic development is a **driving force** behind project development.
+
+Some examples include:
+	 ___________________________________________________________________________
+>	|		  A firm wishing to...		 |			may have a project	 		|
+>	|____________________________________|______________________________________|
+>	| redevelop products or processes 	 | to reengineer products or processes. |
+>	|------------------------------------|--------------------------------------|
+>	| change strategic direction		 | to create new product lines.			|
+>	| or product portfolio configuration |										|
+>	|------------------------------------|--------------------------------------|
+>	| improve cross-organizational 		 | to install an entreprise IT system.  |
+>	| communication and efficiency		 |										|
+>	|____________________________________|______________________________________|
+
+
+### Relationship of Strategic Elements
+
+>               _______________
+>              /  	  		   \
+>             /    	   			\
+>            /      			 \
+>           / 		Mission		  \
+>          /_______________________\
+>         /  		Objectives    	\
+>        /___________________________\
+>       / Strategy | Goals | Programs \
+>      /___________|_______|___________\
+
+
+Goes as such:
+
+- **Top level:** Mission
+- **Middle level:** Objectives
+- **Bottom level:** Strategy, Goals, Programs
+
+### Stakeholder Management
+
+Stakeholders are **all individuals or groups** who have an **active stake** in the project and can potentially impact, either **postitively or negatively**, it's development.
+
+Sets of project stakeholders include:
+
+- **Internal Stakeholders:**
+	- Top management
+	- Accountant
+	- Other functional managers
+	- Project team members
+- **External Stakeholders:**
+	- Clients
+	- Competitors
+	- Suppliers
+	- Environmental, political, consumer, and other intervenor groups
+	
+### Project Stakeholder Relationships
+
+**Project Manager** has bi-directional relationships with the following:
+
+- Clients
+- Accountant
+- Project Team
+- Top Management
+- External Environment
+- Parent Organization
+- Other Functional Managers
+
+
+### Block's 6 Steps to Managing Stakeholders
+
+1. Assess the Environment
+2. Identify the goals of the principal actors
+3. Assess your own capabilities
+4. Define the problem
+5. Develop solutions
+6. Test and refine the solutions
+
+### Project Stakeholder Management Cycle
+
+- Identify Stakeholders
+- Gather information on Stakeholders
+- Identify Stakeholders' mission
+- Determine Stakeholder Strengths & Weaknesses
+- Identify Stakeholder Strategy
+- Predict Stakeholder Behaviour
+- Implement Stkaeholder Management Strategy
+
+All of this is centered around the Project Management Team.
+
+### Organizational Structure
+
+**Consists of three key elements:**
+
+1. Designates formal reporting relationships:
+	- Number of levels in the hierarchy
+	- Span of control
+2. Groupings of:
+	- Individuals into departments
+	- Departments into the total organization
+3. Design of systems for:
+	- Effective communication
+	- Coordination
+	- Integration across departments
+	
+### Three Common Forms of Organizational Structure
+
+1. Functional organizations: Group people performing similar activities into **departments**
+2. Project organizations: Group people into **project teams** on temporary assignments
+3. Matrix organizations: Create a dual hierarchy in which **functions and projects** have equal prominence
+
+### Functional Structures for Project Management
+
+**Strengths**
+
+1. Firm's design maintained
+2. Fosters development of in-depth knowledge
+3. Standard career paths
+4. Project team members remain connected with their functional group
+
+**Weaknesses**
+
+1. Functional siloing
+2. Lack of customer focus
+3. Projects may take longer
+4. Projects may be sub-optimized
+
+### Project Structures for Project Management
+
+**Strengths**
+
+1. Project manager sole authority
+2. Improved communication
+3. Effective decision-making
+4. Creation of project management experts
+5. Rapid response
+
+**Weaknesses**
+
+1. Expensive to set up and maintain teams
+2. Chance of loyalty to the project rather than the firm
+3. No pool of specific knowledge
+4. Workers unassigned at project end
+
+### Matrix Structures for Project Management
+
+**Strengths**
+
+1. Suited to dynamic environments
+2. Equal emphasis on project management and functional efficiency
+3. Promotes coordination across functional units
+4. Maximizes scarce resources
+
+**Weaknesses**
+
+1. Dual hierarchies mean two bosses
+2. Negotiation required in order to share resources
+3. Workers caught between competing project & functional demands
+
+### Organizational Culture
+
+**Unwritten rules** of behaviour or norms that are used to **shape and guide behaviour**, is shared by **some subset of organization** members and is **taught to all new members** of the company.
+
+Key factors that affect culture development:
+
+- Technology
+- Environment
+- Geographical Location
+- Reward Systems
+- Rules and procedures
+- Key organizational members
+- Critical incidents
+
+### Culture Affects Project Management
+
+- Department interaction
+- Employee commitment to goals
+- Project planning
+- Performance evaluation
+
+### Program Management
+
+- PMBOK defines program management as: *a group of related projects managed in a coordinated way to obtain benefits and control not available from managing them individually*
+- Program management manages and prioritizes multiple projects to meet the goals and objectives of the program
+
+### Portfolio Management
+
+- PMBOK defines portfolio management as: *A portfolio refers to a collection of projects or porgrams and other work that are grouped together to facilitate effective management of that work to meet strategic business objectives*
+- Portfolio Management are used by companies to *prioritize, approve, and direct* Project in order to meet their Strategic Objectives
+- Used in large companies with more projects to manage than resources to allocate
+- Project are unrelated in a portfolio but have a common Strategic Goal
+

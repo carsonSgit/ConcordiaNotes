@@ -3,7 +3,7 @@
 .author = "carsonSgit",
 .description = "An Introduction to Project Management",
 .layout = "page.shtml",
-.date = @date("2025-10-6T00:00:00"),
+.date = @date("2025-10-06T00:00:00"),
 ---
 
 ## Lesson 1 - Project Management 101: An Introduction to Project Management

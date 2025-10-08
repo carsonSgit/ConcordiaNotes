@@ -3,7 +3,7 @@
 .author = "carsonSgit",
 .description = "Course notes for TECH4040",
 .layout = "page.shtml",
-.date = @date("2025-10-6T00:00:00"),
+.date = @date("2025-10-06T00:00:00"),
 ---
 
 ## Course Information
@@ -18,7 +18,14 @@
 - Basics of Project Management
 
 ### Week 2  
-*Notes will be added here*
+[Project Strategy and Organization]($link.page("F25/TECH4040/Lesson2"))
+- Four Elements of Strategic Management
+- Stakeholder Management
+- Block's 6 Steps to Managing Stakeholders
+- Organizational Structures
+- Program Management
+- Portfolio Management 
+
 
 ---
 
