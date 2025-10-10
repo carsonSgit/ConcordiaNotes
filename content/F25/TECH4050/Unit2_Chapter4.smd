@@ -3,7 +3,7 @@
 .author = "carsonSgit", 
 .description = "Quality Management, Ethics, and Corporate Social Responsibility",
 .layout = "page.shtml",
-.date = @date("2025-09-15T00:00:00"),
+.date = @date("2025-10-10T00:00:00"),
 ---
 
 ### General Ethics Information
