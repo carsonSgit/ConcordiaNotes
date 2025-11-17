@@ -35,7 +35,7 @@ resource "github_repository" "concordia_notes" {
   }
 }
 
-# Configure branch protection for main branch (optional)
+# Configure branch protection for main branch
 resource "github_branch_protection" "main" {
   repository_id = github_repository.concordia_notes.node_id
   pattern       = "main"
