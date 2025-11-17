@@ -1,15 +1,18 @@
-name: Deploy to GitHub Pages
+name: Build and Deploy Zine Site
 
 on:
   push:
-    branches: [ main ]
-  workflow_dispatch:
+    branches:
+      - main
+  workflow_dispatch:  # Allow manual triggering
 
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
+# Allow only one concurrent deployment
 concurrency:
   group: "pages"
   cancel-in-progress: false
@@ -18,19 +21,25 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
-        
-      - name: Setup Zine
-        uses: kristoff-it/setup-zine@v1
-        
+
+      - name: Download Zine
+        run: |
+          # Download the latest Zine release for Linux
+          curl -L https://github.com/kristoff-it/zine/releases/latest/download/zine-x86_64-linux.tar.gz -o zine.tar.gz
+          tar -xzf zine.tar.gz
+          chmod +x zine
+          ./zine --version
+
       - name: Build site
-        run: zine build
-        
+        run: |
+          ./zine build
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./zig-out/
+          path: 'zig-out/site'
 
   deploy:
     environment:
