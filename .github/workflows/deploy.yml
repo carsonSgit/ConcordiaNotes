@@ -28,7 +28,7 @@ jobs:
         uses: kristoff-it/setup-zine@v1
 
       - name: Build site
-        run: zine build
+        run: zine release
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
