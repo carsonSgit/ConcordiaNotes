@@ -30,23 +30,13 @@ jobs:
       - name: Build site
         run: zine release
 
-      - name: Check output directory
-        run: |
-          echo "Checking for output directories..."
-          ls -la
-          if [ -d "zig-out" ]; then
-            echo "Contents of zig-out:"
-            ls -la zig-out/
-          fi
-          if [ -d "_site" ]; then
-            echo "Contents of _site:"
-            ls -la _site/
-          fi
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '_site'
+          path: 'public'
 
   deploy:
     environment:
