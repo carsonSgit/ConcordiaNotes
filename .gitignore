@@ -61,6 +61,7 @@ yarn.lock
 package-lock.json
 # ignore any lock file other than main lock file
 !/yarn.lock
+!/pnpm-lock.yaml
 
 # starters are special; we want to persist the lock files
 !starters/*/package-lock.json
@@ -68,6 +69,9 @@ package-lock.json
 .parcel-cache
 
 /Notes/Roadmap
+
+# Generated CSS
+assets/output.css
 
 **/.terraform/*
 

@@ -1,0 +1,16 @@
+{
+  "name": "concordia-notes",
+  "version": "1.0.0",
+  "description": "Course notes site built with Zine SSG",
+  "scripts": {
+    "build:css": "tailwindcss -i ./assets/input.css -o ./assets/output.css --minify",
+    "watch:css": "tailwindcss -i ./assets/input.css -o ./assets/output.css --watch",
+    "prebuild": "pnpm run build:css"
+  },
+  "devDependencies": {
+    "daisyui": "^4.12.14",
+    "tailwindcss": "^3.4.1"
+  },
+  "packageManager": "pnpm@9.0.0"
+}
+
