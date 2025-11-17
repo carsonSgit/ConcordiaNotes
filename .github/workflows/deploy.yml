@@ -24,17 +24,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Download Zine
-        run: |
-          # Download the latest Zine release for Linux
-          curl -L https://github.com/kristoff-it/zine/releases/latest/download/zine-x86_64-linux.tar.gz -o zine.tar.gz
-          tar -xzf zine.tar.gz
-          chmod +x zine
-          ./zine --version
+      - name: Setup Zine
+        uses: kristoff-it/setup-zine@v1
 
       - name: Build site
-        run: |
-          ./zine build
+        run: zine build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
