@@ -1,20 +1,19 @@
-// Theme Management
-const THEME_CLASSES = [
-  'theme-modern', 'theme-retro', 'theme-terminal', 'theme-basic', 
-  'theme-academic', 'theme-dark', 'theme-cursor', 'theme-claude', 
-  'theme-notion', 'theme-apple', 'theme-github', 'theme-vercel', 
-  'theme-openai', 'theme-linear'
+
+const DAISY_THEMES = [
+  'light', 'dark', 'cupcake', 'bumblebee', 'emerald', 'corporate',
+  'synthwave', 'retro', 'cyberpunk', 'valentine', 'halloween', 'garden',
+  'forest', 'aqua', 'lofi', 'pastel', 'fantasy', 'wireframe', 'black',
+  'luxury', 'dracula'
 ];
 
 function changeTheme(theme) {
-  const body = document.body;
-  body.classList.remove(...THEME_CLASSES);
-  body.classList.add(`theme-${theme}`);
+  const html = document.documentElement;
+  html.setAttribute('data-theme', theme);
   localStorage.setItem('preferred-theme', theme);
 }
 
 function loadTheme() {
-  const savedTheme = localStorage.getItem('preferred-theme') || 'modern';
+  const savedTheme = localStorage.getItem('preferred-theme') || 'light';
   const themeSelect = document.getElementById('theme-select');
   
   if (themeSelect) {
@@ -24,38 +23,31 @@ function loadTheme() {
 }
 
 function toggleSidebar() {
-  const sidebar = document.getElementById('sidebar');
-  if (sidebar) {
-    sidebar.classList.toggle('open');
+  const drawer = document.getElementById('sidebar-drawer');
+  if (drawer) {
+    drawer.checked = !drawer.checked;
   }
 }
 
 function setupSidebarClose() {
+  // Close drawer when clicking on a link (mobile only)
   document.addEventListener('click', function(event) {
     const target = event.target;
-    const sidebar = document.getElementById('sidebar');
-    const toggleButtons = document.querySelectorAll('.mobile-menu-toggle, .sidebar-toggle');
+    const drawer = document.getElementById('sidebar-drawer');
     
-    if (window.innerWidth <= 768 && sidebar && sidebar.classList.contains('open')) {
-      let clickedToggle = false;
-      
-      toggleButtons.forEach(function(button) {
-        if (button.contains(target)) {
-          clickedToggle = true;
-        }
-      });
-      
-      if (!sidebar.contains(target) && !clickedToggle) {
-        sidebar.classList.remove('open');
+    if (window.innerWidth <= 1024 && drawer && drawer.checked) {
+      // Check if clicked element is a navigation link
+      if (target.tagName === 'A' && target.closest('.menu')) {
+        drawer.checked = false;
       }
     }
   });
 }
 
 function handleResize() {
-  const sidebar = document.getElementById('sidebar');
-  if (sidebar && window.innerWidth > 768) {
-    sidebar.classList.remove('open');
+  const drawer = document.getElementById('sidebar-drawer');
+  if (drawer && window.innerWidth > 1024) {
+    drawer.checked = false;
   }
 }
 
@@ -84,28 +76,24 @@ function setupSmoothScrolling() {
 
 function highlightCurrentNavigation() {
   const currentPath = window.location.pathname;
-  const navDetails = document.querySelectorAll('.nav-details');
+  const navLinks = document.querySelectorAll('.menu a');
   
-  navDetails.forEach(function(details) {
-    const links = details.querySelectorAll('a');
-    
-    links.forEach(function(link) {
-      const href = link.getAttribute('href');
-      if (href && currentPath.includes(href)) {
-        details.open = true;
-        link.style.fontWeight = 'bold';
-        link.style.color = '#007acc';
-      }
-    });
+  navLinks.forEach(function(link) {
+    const href = link.getAttribute('href');
+    if (href === currentPath) {
+      link.classList.add('active');
+    } else {
+      link.classList.remove('active');
+    }
   });
 }
 
 function setupKeyboardNavigation() {
   document.addEventListener('keydown', function(event) {
     if (event.key === 'Escape') {
-      const sidebar = document.getElementById('sidebar');
-      if (sidebar && sidebar.classList.contains('open')) {
-        sidebar.classList.remove('open');
+      const drawer = document.getElementById('sidebar-drawer');
+      if (drawer && drawer.checked) {
+        drawer.checked = false;
       }
     }
   });
