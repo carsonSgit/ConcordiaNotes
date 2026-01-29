@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__plugin_serena_serena__list_dir",
+      "mcp__plugin_serena_serena__think_about_task_adherence",
+      "WebSearch",
+      "WebFetch(domain:www.fundica.com)",
+      "WebFetch(domain:en.wikipedia.org)"
+    ]
+  }
+}
